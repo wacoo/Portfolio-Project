@@ -48,6 +48,7 @@ After you're finished please remove all the comments and instructions!
   - [Prerequisites](#prerequisites)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
@@ -115,6 +116,16 @@ Example command:
 - **Improve the page so it can be compatible to desktop devices**
 - **Add more projects**
 - **Imporve the look and feel further**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
