@@ -138,9 +138,10 @@
 
 /* Recent works */
 .recent_works {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: calc(100% - 48px);
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
   padding-top: 120px;
 }
 
@@ -224,9 +225,10 @@
   margin-top: 24px;
   margin-left: 24px;
   margin-right: 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: calc(100% - 48px);
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
   background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(/static/images/bg2.png);
   background-origin: border-box;
 }
@@ -284,6 +286,7 @@
   background-image: url(/static/images/art.png);
   background-repeat: no-repeat;
   background-position: right 430px;
+  margin-bottom: -1px;
 }
 
 .about .about_summary h1 {
@@ -304,6 +307,7 @@
   font-size: 16px;
   line-height: 24px;
   margin-top: 24px;
+  border: none;
 }
 
 .about .buttons {
@@ -349,4 +353,20 @@
   color: #ff6b00;
   font-size: 32px;
   margin-right: 12px;
+}
+
+.buttons a:hover {
+  color: #f55800;
+  background-color: #fff5e1;
+  border: #f55800 solid 1px;
+}
+
+.buttons a:active {
+  color: #fff;
+  background-color: #e05304;
+}
+
+.buttons a:disabled {
+  color: #5b5957;
+  background-color: #f4f1f0;
 }
