@@ -82,6 +82,17 @@
   justify-content: center;
 }
 
+.footer ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 24px;
+}
+
+.footer ul li {
+  margin-right: 30px;
+}
+
 .languages ul li {
   margin: 13px;
   display: flex;
@@ -143,24 +154,27 @@
   grid-template-columns: auto;
   justify-content: center;
   padding-top: 120px;
+  padding-bottom: 24px;
+}
+
+.recent_works .title h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 327px;
+  height: 83px;
+  border-bottom: #212121 solid 1px;
+  font-size: 40px;
+  font-weight: 400;
+  color: #1c1a19;
+  font-family: 'Crete Round', serif;
+  padding-bottom: 24px;
 }
 
 .recent_works .title {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 327px;
-  height: 83px;
-  padding-bottom: 24px;
-  border-bottom: #212121 solid 1px;
-}
-
-.recent_works .title h1 {
-  font-size: 40px;
-  font-weight: 400;
-  color: #1c1a19;
-  font-family: 'Crete Round', serif;
-  padding-bottom: 24px;
 }
 
 .recent_works .place_holder {
@@ -355,18 +369,115 @@
   margin-right: 12px;
 }
 
-.buttons a:hover {
+.contact .form button {
+  height: 48px;
+  background-color: #ff6b00;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  border: 0;
+}
+
+.buttons a:hover,
+.contact .button button:hover {
   color: #f55800;
   background-color: #fff5e1;
   border: #f55800 solid 1px;
 }
 
-.buttons a:active {
+.buttons a:active,
+.contact .button button:active {
   color: #fff;
   background-color: #e05304;
 }
 
-.buttons a:disabled {
+.buttons a:disabled,
+.contact .button button:disabled {
   color: #5b5957;
   background-color: #f4f1f0;
+}
+
+.contact {
+  height: 700px;
+  margin-top: 69px;
+  border-bottom: #dfe1e6 solid 1px;
+}
+
+.contact .announcement p {
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  color: #172b4d;
+}
+
+.contact .announcement {
+  margin-left: 23px;
+  margin-right: 25px;
+}
+
+.contact .form {
+  margin-left: 23px;
+  margin-right: 25px;
+  margin-top: 100px;
+}
+
+.contact .form ul {
+  margin-left: 15px;
+  margin-right: 17px;
+  list-style-type: none;
+}
+
+.contact .form ul li {
+  padding-bottom: 24px;
+}
+
+.contact .form ul li input {
+  width: 100%;
+  margin-bottom: 15px;
+  border: 0;
+  border-bottom: #dbd8d7 solid 1px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: 'Inter', sans-serif;
+  color: #979493;
+}
+
+.contact .form ul li textarea {
+  width: 100%;
+  border: 0;
+  background-color: #fbf8f7;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: 'Inter', sans-serif;
+  color: #3c3a39;
+}
+
+.contact .form .button {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .bottom_border {
+  width: 134px;
+  margin-right: 24px;
+  margin-top: 47px;
+  border-top: #0d151e solid 2.5px;
+  border-bottom: #0d151e solid 2.5px;
+  background-color: #0d151e;
+  margin-bottom: 11px;
+  border-radius: 5px;
 }
