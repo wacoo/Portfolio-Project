@@ -30,7 +30,7 @@
 
 /* Intro section */
 .introduction {
-  display: flex;
+  display: flex;   
   flex-direction: column;
   padding-top: 120px;
   height: 590px;
@@ -38,6 +38,44 @@
   background-image: url(/static/images/des.png);
   background-repeat: no-repeat;
   background-position: right 435px;
+  /* Added with desktop version */
+  /* max-width: 566px; */
+}
+
+@media screen and (min-width: 768px) {
+  
+  .introduction {
+    flex-direction: row-reverse;
+    justify-content: left;
+    padding-top: 0;
+    background-color: red;
+  }
+  .introduction .intro_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    outline: blue solid 3px;
+    margin-bottom: 59px;
+    /* padding-top: 192px; */
+  }
+  .introduction .social {
+    display: flex;
+    align-items: center;
+  }
+  .introduction .social ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 42px;
+  }
+
+  .introduction .social ul li {
+    margin-bottom: 12px;
+  }
+
+  .introduction .description {
+    width: 566px;
+  }
 }
 
 .introduction .name {
