@@ -157,12 +157,15 @@
 /* Recent works */
 .recent_works {
   width: calc(100% - 48px);
-  display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
   padding-top: 120px;
   padding-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  margin-left: 24px;
+  margin-right: 24px;
+  outline: yellow solid 2px;
 }
+
 
 .recent_works .title {
   display: flex;
@@ -498,7 +501,7 @@
 }
 
 @media screen and (min-width: 768px) {
-
+  
   .introduction {
     height: 870px;
     flex-direction: row-reverse;
@@ -542,10 +545,13 @@
     max-width: 566px;
   }
 
+  .recent_works .wrapper {
+    width: calc(100% - 282px);
+  }
+
   .recent_works .title {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
   }
   .recent_works .title hr{
     width: calc(100% - 315px - 24px);
@@ -556,31 +562,34 @@
     margin-left: 0;
     padding-left: 0;
   }
-  .recent_works .recent_summary {
+
+  .recent_works .recent_summary {    
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin-top: 24px;
-    /* border: orangered solid 3px; */
+    outline: blue solid 3px;
   }
 
   .recent_works .place_holder {
-    width: 70vw;
+    width: 684px;
     padding-top: 0;
     outline: red solid 2px;
   }
 
+  .recent_works .place_holder img {
+    width: 684px;
+  }
   .recent_works .stories {
     width: 50%;
-    display: flex;
-    flex-direction: column;
     margin-top: 0;
     padding-top: 0;
     margin-left: 24px;
     /* outline: greenyellow solid 2px; */
   }
   .mp_stories {
+    margin-top: 0;
     width: 100%;
-    padding-top: 70px;
   }
   .child-1 .mp_stories {
     padding-top: 0;
@@ -589,13 +598,29 @@
     width: 100%;
   }
   .show_case {
-    display: grid;
-    grid-template-columns: 369px 369px 369px;
-    grid-template-rows: 435px 435px 435px;
-    row-gap: 37px;
-    column-gap: 24px;
+    border: red solid 2px;
+    width: calc(100% - 48px);    
+    margin-left: 24px;
+    margin-right: 24px;
+    display: flex;
+    justify-content: center;
   }
 
+  .show_case .wrapper {
+    width: calc(100% - 282px);;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 435px 435px;
+    row-gap: 37px;
+    column-gap: 24px;
+    border: green solid 2px;
+  }
+
+  .img_p_holder {
+    width: 100%;
+    margin: 0;
+  }
   .img_p_holder .buttons {
     padding-top: 0;
     margin-top: 0;
