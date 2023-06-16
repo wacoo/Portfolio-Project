@@ -22,18 +22,37 @@
     <nav class="menu">
       <img src="/static/images/burger.PNG" alt="Menu">
     </nav>
+    <nav class="menu_wide">
+      <ul>
+        <li>
+          <a href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+        <li>
+          <a href="#links"><img src="/static/images/mail.png" alt="Twitter"></a>
+        </li>
+      </ul>
+    </nav>
   </header>
   <main class="container">
     <section class="introduction padding_lr">
-      <div class="name margin_bottom">
-        <h1> Hey There.<br>I'm Wonde.</h1>
-      </div>
-      <div class="occupation margin_bottom">
-        <h3>I'm a Software Developer</h3>
-      </div>
-      <div class="description margin_bottom">
-        <p>I can help build a product, feature or website look through some of my work and experience! If you like what
-          you see and have a project you need coded, don't hesitate to contact me.</p>
+      <div class="intro_content">
+        <div class="name margin_bottom">
+          <h1> Hey There.<br>I'm Wonde.</h1>
+        </div>
+        <div class="occupation margin_bottom">
+          <h3>I'm a Software Developer</h3>
+        </div>
+        <div class="description margin_bottom">
+          <p>I can help build a product, feature or website look through some of my work and experience! If you like
+            what
+            you see and have a project you need coded, don't hesitate to contact me.</p>
+        </div>
       </div>
       <div class="social">
         <ul>
@@ -57,134 +76,190 @@
         </ul>
       </div>
     </section>
-    <section class="recent_works padding_lr">
-      <div class="title">
-        <h1>My Recent Works</h1>
-      </div>
-      <div class="place_holder">
-        <img src="/static/images/ph1.png" alt="place_holder">
-      </div>
-      <div class="mp_stories">
-        <h2>Multi-Post Stories</h2>
-        <p>A daily selection of selection of privately personalized reads; no accounts or sign-ups required: has been
-          the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-        </p>
-      </div>
-      <div class="links">
-        <ul>
-          <li>CSS</li>
-          <li>HTML</li>
-          <li>Bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-      </div>
-      <div class="buttons btn_width_wrap">
-        <a href="#">See project</a>
-      </div>
-    </section>
-    <section class="img_p_holder">
-      <div class="mp_stories">
-        <h2>Professional Art<br> Printing Data</h2>
-        <p>A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been
-          the industry's standard.</p>
-      </div>
-      <div class="links">
-        <ul>
-          <li>HTML</li>
-          <li>Bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-      </div>
-      <div class="buttons">
-        <a href="#">See project</a>
+    <section class="recent_works" id="portfolio">
+      <div class="wrapper">
+        <div class="title">
+          <h1>My Recent Works</h1>
+          <hr class="line">
+        </div>
+        <div class="recent_summary">
+          <div class="place_holder">
+            <img src="/static/images/ph1.png" alt="place_holder">
+          </div>
+          <div class="stories">
+            <div class="mp_stories">
+              <h2>Multi-Post Stories</h2>
+              <p>A daily selection of selection of privately personalized reads; no accounts or sign-ups required: has
+                been
+                the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy
+                text.
+              </p>
+            </div>
+            <div class="links">
+              <ul>
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>Bootstrap</li>
+                <li>Ruby</li>
+              </ul>
+            </div>
+            <div class="buttons btn_width_wrap">
+              <a href="#">See project</a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <section class="img_p_holder">
-      <div class="mp_stories">
-        <h2>Professional Art<br> Printing Data</h2>
-        <p>A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been
-          the industry's standard.</p>
-      </div>
-      <div class="links">
-        <ul>
-          <li>HTML</li>
-          <li>Bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-      </div>
-      <div class="buttons">
-        <a href="#">See project</a>
+    <section class="show_case">
+      <div class="wrapper">
+        <article class="img_p_holder child-1">
+          <div class="mp_stories">
+            <h2>Professional Art<br> Printing Data</h2>
+            <p>A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has
+              been
+              the industry's standard.</p>
+          </div>
+          <div class="links">
+            <ul>
+              <li>HTML</li>
+              <li>Bootstrap</li>
+              <li>Ruby</li>
+            </ul>
+          </div>
+          <div class="buttons">
+            <a href="#">See project</a>
+          </div>
+        </article>
+        <article class="img_p_holder  child-2">
+          <div class="mp_stories">
+            <h2>Data Dashboard<br> Healthcare</h2>
+            <p>A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has
+              been
+              the industry's standard.</p>
+          </div>
+          <div class="links">
+            <ul>
+              <li>HTML</li>
+              <li>Bootstrap</li>
+              <li>Ruby</li>
+            </ul>
+          </div>
+          <div class="buttons">
+            <a href="#">See project</a>
+          </div>
+        </article>
+        <article class="img_p_holder  child-3">
+          <div class="mp_stories">
+            <h2>Website Portfolio</h2>
+            <p>A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has
+              been
+              the industry's standard.</p>
+          </div>
+          <div class="links">
+            <ul>
+              <li>HTML</li>
+              <li>Bootstrap</li>
+              <li>Ruby</li>
+            </ul>
+          </div>
+          <div class="buttons">
+            <a href="#">See project</a>
+          </div>
+        </article>
+        <article class="img_p_holder child-4">
+          <div class="mp_stories">
+            <h2>Professional Art<br> Printing Data</h2>
+            <p>A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has
+              been
+              the industry's standard.</p>
+          </div>
+          <div class="links">
+            <ul>
+              <li>HTML</li>
+              <li>Bootstrap</li>
+              <li>Ruby</li>
+            </ul>
+          </div>
+          <div class="buttons">
+            <a href="#">See project</a>
+          </div>
+        </article>
+        <article class="img_p_holder child-5">
+          <div class="mp_stories">
+            <h2>Data Dashboard<br> Healthcare</h2>
+            <p>A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has
+              been
+              the industry's standard.</p>
+          </div>
+          <div class="links">
+            <ul>
+              <li>HTML</li>
+              <li>Bootstrap</li>
+              <li>Ruby</li>
+            </ul>
+          </div>
+          <div class="buttons">
+            <a href="#">See project</a>
+          </div>
+        </article>
+        <article class="img_p_holder child-6">
+          <div class="mp_stories">
+            <h2>Website Portfolio</h2>
+            <p>A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has
+              been
+              the industry's standard.</p>
+          </div>
+          <div class="links">
+            <ul>
+              <li>HTML</li>
+              <li>Bootstrap</li>
+              <li>Ruby</li>
+            </ul>
+          </div>
+          <div class="buttons">
+            <a href="#">See project</a>
+          </div>
+        </article>
+        </article>
+        <article class="img_p_holder child-7">
+          <div class="mp_stories">
+            <h2>Professional Art<br> Printing Data</h2>
+            <p>A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has
+              been
+              the industry's standard.</p>
+          </div>
+          <div class="links">
+            <ul>
+              <li>HTML</li>
+              <li>Bootstrap</li>
+              <li>Ruby</li>
+            </ul>
+          </div>
+          <div class="buttons">
+            <a href="#">See project</a>
+          </div>
+        </article>
+        <article class="img_p_holder child-7">
+          <div class="mp_stories">
+            <h2>Professional Art<br> Printing Data</h2>
+            <p>A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has
+              been
+              the industry's standard.</p>
+          </div>
+          <div class="links">
+            <ul>
+              <li>HTML</li>
+              <li>Bootstrap</li>
+              <li>Ruby</li>
+            </ul>
+          </div>
+          <div class="buttons">
+            <a href="#">See project</a>
+          </div>
+        </article>
       </div>
     </section>
-    <section class="img_p_holder">
-      <div class="mp_stories">
-        <h2>Professional Art<br> Printing Data</h2>
-        <p>A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been
-          the industry's standard.</p>
-      </div>
-      <div class="links">
-        <ul>
-          <li>HTML</li>
-          <li>Bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-      </div>
-      <div class="buttons">
-        <a href="#">See project</a>
-      </div>
-    </section>
-    <section class="img_p_holder">
-      <div class="mp_stories">
-        <h2>Professional Art<br> Printing Data</h2>
-        <p>A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been
-          the industry's standard.</p>
-      </div>
-      <div class="links">
-        <ul>
-          <li>HTML</li>
-          <li>Bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-      </div>
-      <div class="buttons">
-        <a href="#">See project</a>
-      </div>
-    </section>
-    <section class="img_p_holder">
-      <div class="mp_stories">
-        <h2>Professional Art<br> Printing Data</h2>
-        <p>A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been
-          the industry's standard.</p>
-      </div>
-      <div class="links">
-        <ul>
-          <li>HTML</li>
-          <li>Bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-      </div>
-      <div class="buttons">
-        <a href="#">See project</a>
-      </div>
-    </section>
-    <section class="img_p_holder">
-      <div class="mp_stories">
-        <h2>Professional Art<br> Printing Data</h2>
-        <p>A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been
-          the industry's standard.</p>
-      </div>
-      <div class="links">
-        <ul>
-          <li>HTML</li>
-          <li>Bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-      </div>
-      <div class="buttons">
-        <a href="#">See project</a>
-      </div>
-    </section>
-    <section class="about">
+    <section class="about" id="about">
       <div class="bottom_line">
         <div class="about_summary padding_lr">
           <h1>About me</h1>
@@ -200,60 +275,70 @@
       </div>
     </section>
     <section class="languages">
-      <ul>
-        <li>
-          <h3>
-            <div class="prog_lg">&#9830;</div>Languages
-          </h3>
-          <ul>
-            <li>JavaScript</li>
-            <li>Ruby</li>
-            <li>HTML</li>
-            <li>CSS</li>
-          </ul>
-        </li>
+      <div class="wrapper">
+        <ul>
+          <li>
+            <div>
+              <h3>
+                <div class="prog_lg">&#9830;</div>Languages
+              </h3>
+              <ul>
+                <li>JavaScript</li>
+                <li>Ruby</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+          </li>
 
-        <li>
-          <h3>
-            <div class="frameworks">&#9632;</div>Frameworks
-          </h3>
-          <ul>
-            <li>React.js</li>
-            <li>Ruby on Rails</li>
-            <li>RSpec</li>
-            <li>Capybera</li>
-          </ul>
-        </li>
+          <li>
+            <div>
+              <h3>
+                <div class="frameworks">&#9632;</div>Frameworks
+              </h3>
+              <ul>
+                <li>React.js</li>
+                <li>Ruby on Rails</li>
+                <li>RSpec</li>
+                <li>Capybera</li>
+              </ul>
+            </div>
+          </li>
 
-        <li>
-          <h3 class="sk">
-            <div class="skills">&#9679;</div>Skills
-          </h3>
-          <ul>
-            <li>Database Management</li>
-            <li>Version Control</li>
-            <li>CLI</li>
-            <li>API Design</li>
-            <li>Web Development</li>
-          </ul>
-        </li>
-      </ul>
-    </section>
-    <section class="contact">
-      <div class="announcement">
-        <p>I'm alway interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+          <li>
+            <div>
+              <h3 class="sk">
+                <div class="skills">&#9679;</div>Skills
+              </h3>
+              <ul>
+                <li>Database Management</li>
+                <li>Version Control</li>
+                <li>CLI</li>
+                <li>API Design</li>
+                <li>Web Development</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
       </div>
-      <form action="https://formspree.io/f/mqkorawk" method="POST" class="form">
-        <input type="text" placeholder="Full name" maxlength="30" required>
-        <input type="email" placeholder="Email address" required>
-        <textarea name="message" id="message" cols="30" rows="5" placeholder="Write me something..." maxlength="500"
-          required></textarea>
-        <div class="button">
-          <button type="submit">Get in touch</button>
-        </div>
-      </form>
     </section>
-    <section class="footer">
+    <section class="contact" id="contact">
+      <div class="wrapper">
+        <div class="announcement">
+          <p>I'm alway interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+        </div>
+        <form action="https://formspree.io/f/mqkorawk" method="POST" class="form">
+          <input type="text" placeholder="Full name" maxlength="30" required>
+          <input type="email" placeholder="Email address" required>
+          <textarea name="message" id="message" cols="30" rows="5" placeholder="Write me something..." maxlength="500"
+            required></textarea>
+          <div class="button">
+            <button type="submit">Get in touch</button>
+          </div>
+        </form>
+    </section>
+    </div>
+    <section class="footer" id="links">
       <ul>
         <li>
           <a href="https://github.com/wacoo"><img src="/static/images/github2.png" alt="Github"></a>
@@ -277,5 +362,4 @@
     </section>
   </main>
 </body>
-
 </html>
