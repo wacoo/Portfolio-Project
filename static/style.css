@@ -27,13 +27,6 @@
   margin-right: 24px;
 }
 
-.header .logo {
-  transition: transform 2s ease-in;
-}
-
-.header .logo:hover {
-  transform: rotate(360deg);
-}
 .header .logo img {
   width: 50px;
   border-radius: 50%;
@@ -510,6 +503,38 @@
   background-color: #0d151e;
   margin-bottom: 11px;
   border-radius: 5px;
+}
+
+/* TODO animation and transition
+- picture animation
+- button animation
+*/
+
+.header .logo:hover {
+  animation: rotate_logo 2s ease-in;
+}
+
+.menu_wide ul li:hover {
+  color: red;
+}
+.show_case .img_p_holder:hover {
+  transition: transform 0.5s ease-in;
+  transform: scale(1.08);
+}
+
+.buttons a:hover {
+  border: #000 solid 2px;
+  transition: all 0.5s ease-in;
+}
+
+@keyframes rotate_logo {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @media screen and (min-width: 768px) {
