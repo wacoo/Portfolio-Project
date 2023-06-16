@@ -27,7 +27,11 @@
   margin-right: 24px;
 }
 
-.header .logo img {
+.header .logo {
+  margin-left: 24px;
+}
+
+.logo img {
   width: 50px;
   border-radius: 50%;
 }
@@ -197,7 +201,7 @@
   padding-top: 80px;
 }
 
-.recent_works .place_holder img {
+.place_holder img {
   width: 100%;
 }
 
@@ -379,7 +383,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 164px;
   height: 24px;
   font-family: 'InaiMathi', sans-serif;
   font-weight: 700;
@@ -505,24 +508,29 @@
   border-radius: 5px;
 }
 
-/* TODO animation and transition
-- picture animation
-- button animation
-*/
+/* TODO animation and transition */
 
 .header .logo:hover {
-  animation: rotate_logo 2s ease-in;
+  animation: rotate_logo 2s ease;
 }
 
-.menu_wide ul li:hover {
-  color: red;
+.menu_wide a:hover {
+  transition: font-size 0.5s ease;
+  font-size: 20px;
 }
+
+a:hover img {
+  transition: transform 0.5s ease;
+  transform: scale(1.5);
+}
+
 .show_case .img_p_holder:hover {
   transition: transform 0.5s ease-in;
   transform: scale(1.08);
 }
 
-.buttons a:hover {
+.buttons a:hover,
+.contact .form .button button:hover {
   border: #000 solid 2px;
   transition: all 0.5s ease-in;
 }
@@ -537,6 +545,9 @@
   }
 }
 
+/* animation stops here */
+
+/* Descktop version */
 @media screen and (min-width: 768px) {
   .header .logo {
     margin-left: 154px;
@@ -600,6 +611,10 @@
   .introduction .social {
     display: flex;
     align-items: center;
+  }
+
+  .languages ul li h3 {
+    width: 164px;
   }
 
   .languages ul li ul {
