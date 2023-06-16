@@ -505,6 +505,41 @@
   border-radius: 5px;
 }
 
+.header .logo:hover {
+  animation: rotate_logo 2s ease;
+}
+
+.menu_wide a:hover {
+  transition: font-size 0.5s ease;
+  font-size: 20px;
+}
+
+a:hover img {
+  transition: transform 0.5s ease;
+  transform: scale(1.5);
+}
+
+.show_case .img_p_holder:hover {
+  transition: transform 0.5s ease-in;
+  transform: scale(1.08);
+}
+
+.buttons a:hover,
+.contact .form .button button:hover {
+  border: #000 solid 2px;
+  transition: all 0.5s ease-in;
+}
+
+@keyframes rotate_logo {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .header .logo {
     margin-left: 154px;
