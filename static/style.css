@@ -18,14 +18,18 @@
   background-color: #3c3a39;
 }
 
-.header .logo img {
-  width: 50px;
-  margin-left: 20px;
-  border-radius: 50%;
+.header .menu_wide {
+  display: none;
 }
 
-.header .menu img {
-  margin-right: 20px;
+.header .menu {
+  display: block;
+  margin-right: 24px;
+}
+
+.header .logo img {
+  width: 50px;  
+  border-radius: 50%;
 }
 
 /* Intro section */
@@ -502,6 +506,35 @@
 }
 
 @media screen and (min-width: 768px) {
+  .header .logo {
+    margin-left: 154px;
+  }
+  .header .menu_wide {
+    display: block;
+    margin-right: 151px;
+  }
+
+  header .menu_wide ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;    
+  }
+
+  header .menu_wide ul li {
+    margin-right: 32px;
+  }
+
+  header .menu_wide ul li a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    font-family: 'Inter', sans-serif ;
+    text-decoration: none;
+  }
+  .header .menu {
+    display: none;
+  }
   .introduction {
     height: 870px;
     flex-direction: row-reverse;
@@ -643,12 +676,28 @@
     margin-top: 0;
   }
 
-  .child-1 {
+  .show_case .wrapper .child-1 {
+    background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(/static/images/bg_c1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 0;
+  }
+
+  .show_case .wrapper .child-1:hover {
     background-image: url(/static/images/bg_c1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border: #172b4d solid 2px;
+    padding-bottom: 0;
+  }
+
+  .show_case .wrapper .child-1:hover
+  .child-1 .mp_stories,
+  .child-1 .links {
+    visibility: hidden;
+    margin-bottom: 24px;
   }
 
   .child-2 {
@@ -686,9 +735,10 @@
     background-size: cover;
   }
 
-  .child-1 .mp_stories,
+  /* .child-1 .mp_stories, */
   .child-1 .links {
-    visibility: hidden;
+    /* visibility: hidden; */
+    margin-bottom: 24px;
   }
 
   .child-2 .buttons,
