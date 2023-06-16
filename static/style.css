@@ -27,6 +27,13 @@
   margin-right: 24px;
 }
 
+.header .logo {
+  transition: transform 2s ease-in;
+}
+
+.header .logo:hover {
+  transform: rotate(360deg);
+}
 .header .logo img {
   width: 50px;
   border-radius: 50%;
