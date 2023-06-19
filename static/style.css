@@ -3,10 +3,12 @@
   padding: 0;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
+@media screen and (min-width: 375px){
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 /* Header */
