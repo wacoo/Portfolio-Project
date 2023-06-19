@@ -3,15 +3,13 @@
   padding: 0;
 }
 
-@media screen and (min-width: 375px){
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-/* Header */
+/* Headerr */
 .header {
   display: flex;
   justify-content: space-between;
