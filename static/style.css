@@ -9,7 +9,7 @@
   justify-content: center;
 }
 
-/* Headerr */
+/* Header */
 .header {
   display: flex;
   justify-content: space-between;
@@ -27,7 +27,11 @@
   margin-right: 24px;
 }
 
-.header .logo img {
+.header .logo {
+  margin-left: 24px;
+}
+
+.logo img {
   width: 50px;
   border-radius: 50%;
 }
@@ -197,7 +201,7 @@
   padding-top: 80px;
 }
 
-.recent_works .place_holder img {
+.place_holder img {
   width: 100%;
 }
 
@@ -379,7 +383,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 164px;
   height: 24px;
   font-family: 'InaiMathi', sans-serif;
   font-weight: 700;
