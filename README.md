@@ -78,7 +78,7 @@ After you're finished please remove all the comments and instructions!
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- Coming Soon
+- Click <a href="https://wacoo.github.io">here</a> to open the live demo.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
