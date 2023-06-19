@@ -853,6 +853,10 @@ a:hover img {
     margin-bottom: 142px;
   }
 
+  .languages ul li h3 {
+    width: 164px;
+  }
+
   .contact .wrapper {
     display: flex;
     margin-left: 0;
