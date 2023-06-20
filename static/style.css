@@ -888,4 +888,5 @@ a:hover img {
     padding: 12px;
   }
 }
-label {visibility:hidden;}
+
+label { visibility: hidden; }
