@@ -252,7 +252,7 @@
 .buttons a {
   padding: 12px;
   color: #fff;
-  background-color: #ff6b00;
+  background-color: rgb(166, 97, 11);
   text-decoration: none;
   font-size: 17px;
   font-weight: 700;
@@ -412,7 +412,7 @@
 
 .contact .form button {
   height: 48px;
-  background-color: #ff6b00;
+  background-color: rgb(166, 97, 11);
   padding: 12px;
   font-size: 17px;
   font-weight: 700;
