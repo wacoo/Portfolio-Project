@@ -60,22 +60,14 @@
   font-family: 'Crete Round', serif;
 }
 
-/*.introduction {
-  color: #fff5e1;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 32px;
-  font-family: 'Roboto', sans-serif;
-}*/
-
 .occupation p {
-  font-family: 'Inter', sans-serif ;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-  }
+}
 
 .introduction .description {
   color: #fff;
@@ -284,6 +276,18 @@
   margin-top: 72px;
 }
 
+.languages ul li h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  font-family: 'InaiMathi', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
 .img_p_holder .mp_stories h3 {
   font-family: 'Crete Round', serif;
   font-weight: 400;
@@ -386,18 +390,6 @@
   display: block;
   color: #fff;
   background-color: #1c1a19;
-}
-
-.languages ul li h3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 24px;
-  font-family: 'InaiMathi', sans-serif;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
 }
 
 .languages ul li h3 div {
