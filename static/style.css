@@ -60,13 +60,22 @@
   font-family: 'Crete Round', serif;
 }
 
-.introduction .occupation {
+/*.introduction {
   color: #fff5e1;
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
   font-family: 'Roboto', sans-serif;
-}
+}*/
+
+.occupation p {
+  font-family: 'Inter', sans-serif ;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  }
 
 .introduction .description {
   color: #fff;
@@ -173,7 +182,7 @@
   align-items: center;
 }
 
-.recent_works .title h1 {
+.recent_works .title h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -181,7 +190,7 @@
   height: 83px;
   font-size: 40px;
   font-weight: 400;
-  color: #1c1a19;
+  color: #091e42;
   font-family: 'Crete Round', serif;
   padding-bottom: 24px;
   margin: 24px;
@@ -211,7 +220,7 @@
   margin-top: 24px;
 }
 
-.mp_stories h2 {
+.mp_stories h3 {
   font-size: 32px;
   font-weight: 400;
   line-height: 44px;
@@ -275,7 +284,7 @@
   margin-top: 72px;
 }
 
-.img_p_holder .mp_stories h2 {
+.img_p_holder .mp_stories h3 {
   font-family: 'Crete Round', serif;
   font-weight: 400;
   font-size: 32px;
@@ -336,7 +345,7 @@
   margin-bottom: -1px;
 }
 
-.about .about_summary h1 {
+.about .about_summary h2 {
   width: 327px;
   height: 79px;
   color: #ff6b00;
@@ -647,7 +656,7 @@ a:hover img {
     width: calc(100% - 315px - 24px);
   }
 
-  .recent_works .title h1 {
+  .recent_works .title h2 {
     width: 315px;
     margin-left: 0;
     padding-left: 0;
