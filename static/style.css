@@ -173,7 +173,7 @@
   align-items: center;
 }
 
-.recent_works .title h1 {
+.recent_works .title h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -336,7 +336,7 @@
   margin-bottom: -1px;
 }
 
-.about .about_summary h1 {
+.about .about_summary h2 {
   width: 327px;
   height: 79px;
   color: #ff6b00;
@@ -647,7 +647,7 @@ a:hover img {
     width: calc(100% - 315px - 24px);
   }
 
-  .recent_works .title h1 {
+  .recent_works .title h2 {
     width: 315px;
     margin-left: 0;
     padding-left: 0;
