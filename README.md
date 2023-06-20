@@ -34,7 +34,6 @@ After you're finished please remove all the comments and instructions!
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
