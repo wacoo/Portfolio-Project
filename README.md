@@ -53,7 +53,7 @@ After you're finished please remove all the comments and instructions!
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+<!-- PROJECT DESCRIPTION  -->
 
 # 📖 Portfolio Project <a name="about-project"></a>
 
