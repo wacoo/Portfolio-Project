@@ -1,19 +1,21 @@
-const modal_menu = document.querySelector('.modal-1');
-const btn_hamburger = document.querySelector('.menu');
-const btn_close = document.querySelector('.close-1');
+const modalMenu = document.querySelector('.modal-1');
+const btnHamburger = document.querySelector('.menu');
+const btnClose = document.querySelector('.close-1');
 
 const links = document.querySelectorAll('.lnks a');
-for (let link of links) {
-    link.addEventListener('click', () => {
-        modal_menu.close();
-    });
+
+function closeModal(link, idx) {
+  link.addEventListener('click', () => {
+    modalMenu.close();
+  });
 }
 
-btn_hamburger.addEventListener('click', () => {
-    modal_menu.show();
+links.forEach(closeModal);
+
+btnHamburger.addEventListener('click', () => {
+  modalMenu.show();
 });
 
-btn_close.addEventListener('click', () => {
-    modal_menu.close();
+btnClose.addEventListener('click', () => {
+  modalMenu.close();
 });
-

@@ -18,6 +18,18 @@
   background-color: #3c3a39;
 }
 
+.buttons a {
+  padding: 12px;
+  color: #fff;
+  background-color: rgb(166, 97, 11);
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
 .modal-1 {
   width: 100%;
   height: 850px;
@@ -277,18 +289,6 @@
   width: 100%;
   margin-top: 12px;
   padding-top: 12px;
-}
-
-.buttons a {
-  padding: 12px;
-  color: #fff;
-  background-color: rgb(166, 97, 11);
-  text-decoration: none;
-  font-size: 17px;
-  font-weight: 700;
-  line-height: 24px;
-  text-align: center;
-  font-family: 'Inter', sans-serif;
 }
 
 .img_p_holder {
