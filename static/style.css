@@ -17,37 +17,43 @@
   height: 92px;
   background-color: #3c3a39;
 }
+
 .modal-1 {
   width: 100%;
-  height: 650px;
+  height: 850px;
   background-color: #3c3a39;
   color: #fff5e1;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
   font-family: 'Roboto', sans-serif;
-  display: flex;
-  flex-direction: column;
+  border: 0;
 }
 
-.modal-1 .close{
+.modal-1 div {
   display: flex;
   justify-content: right;
-  margin: 24px;
+  padding: 24px;
+  color: #6f6c6b;
   font-weight: 400;
 }
 
-.modal-1 .mobile_menu ul {
+.modal-1 ul {
+  list-style-type: none;
+  padding: 24px;
   display: flex;
   flex-direction: column;
   align-items: left;
-  list-style-type: none;
-  margin: 24px;
 }
 
-.mobile_menu ul li {
+.modal-1 ul li {
   padding: 8px 16px;
   border-bottom: #6f6c6b solid 1px;
+}
+
+.modal-1 ul li a {
+  color: #fff5e1;
+  text-decoration: none;
 }
 
 .header .menu_wide {
