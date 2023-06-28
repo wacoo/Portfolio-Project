@@ -35,6 +35,5 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
   btnClosePop.addEventListener('click', () => {
     modalPopUp.close();
-    //modalPopUp.classList.remove('blurred');
   });
 });

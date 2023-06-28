@@ -1,122 +1,122 @@
 /* Modals */
 
-
 .modal-1 {
-    width: 100%;
-    height: 850px;
-    background-color: #3c3a39;
-    color: #fff5e1;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 44px;
-    font-family: 'Roboto', sans-serif;
-    border: 0;
-  }
-  
-  .modal-1 div {
-    display: flex;
-    justify-content: right;
-    padding: 24px;
-    color: #6f6c6b;
-    font-weight: 400;
-  }
-  
-  .modal-1 ul {
-    list-style-type: none;
-    padding: 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-  }
-  
-  .modal-1 ul li {
-    padding: 8px 16px;
-    border-bottom: #6f6c6b solid 1px;
-  }
-  
-  .modal-1 ul li a {
-    color: #fff5e1;
-    text-decoration: none;
-  }
-  
-  .modal-2 {
-    width: calc(100% - 96px);
-    padding: 24px;
-    margin: 24px 24px 0 24px;
-    background-color: #fff;
-    color: #344563;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 44px;
-    font-family: 'Roboto', sans-serif;
-    border: 0;
-  }
-  
-  .all .text_side {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 24px 24px 24px 0;
-  }
+  width: 100%;
+  height: 850px;
+  background-color: #3c3a39;
+  color: #fff5e1;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  font-family: 'Roboto', sans-serif;
+  border: 0;
+}
 
-  .all .text_side .buttons {
-    height: 100%;
-  }
+.modal-1 div {
+  display: flex;
+  justify-content: right;
+  padding: 24px;
+  color: #6f6c6b;
+  font-weight: 400;
+}
 
-  .modal-2 div {
-    color: #6f6c6b;
-    font-weight: 400;
-  }
+.modal-1 ul {
+  list-style-type: none;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
 
-  .modal-2 div.wrp {
-    display: flex;
-    justify-content: right;
-    padding: 0;
-    margin: 0;
-  }
+.modal-1 ul li {
+  padding: 8px 16px;
+  border-bottom: #6f6c6b solid 1px;
+}
 
-  .modal-2 .close-1 {
-   padding-top: 24px;
-  }
-  
-  .modal-2 .all {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-  }
-  .all h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 44px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #172b4d;
-  
-  }
-  
-  
-  .all div.image {  
-    display: flex;
-    justify-content: left;
-    padding: 0;
-    margin: 24px 0px 24px 0;
-  }
-  
-  .all div.image img {
-    width: 100%;
-    max-height: 400px;
-    min-width: 270px;
-    
-  }
-  .modal-2 .links {
-    padding: 24px 0;
-  }
-  .all ul li {
+.modal-1 ul li a {
+  color: #fff5e1;
+  text-decoration: none;
+}
+
+.modal-2 {
+  width: calc(100% - 96px);
+  padding: 24px;
+  margin: 24px 24px 0 24px;
+  background-color: #fff;
+  color: #344563;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  font-family: 'Roboto', sans-serif;
+  border: 0;
+}
+
+.all .text_side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 24px 24px 24px 0;
+}
+
+.all .text_side .buttons {
+  height: 100%;
+}
+
+.modal-2 div {
+  color: #6f6c6b;
+  font-weight: 400;
+}
+
+.modal-2 div.wrp {
+  display: flex;
+  justify-content: right;
+  padding: 0;
+  margin: 0;
+}
+
+.modal-2 .close-1 {
+  padding-top: 24px;
+}
+
+.modal-2 .all {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.all h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #172b4d;
+}
+
+.all div.image {
+  display: flex;
+  justify-content: left;
+  padding: 0;
+  margin: 24px 0px 24px 0;
+}
+
+.all div.image img {
+  width: 100%;
+  max-height: 400px;
+  min-width: 270px;
+
+}
+
+.modal-2 .links {
+  padding: 24px 0;
+}
+
+.all ul li {
   font-family: 'Poppins', sans-serif;
   font-size: 13px;
   font-weight: 600;
@@ -124,88 +124,99 @@
   letter-spacing: 0em;
   text-align: left;
   color: #3c3a39;
-  
+
+}
+
+.all p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #344563;
+}
+
+.all .product_buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product_buttons .buttons {
+  width: 150px;
+}
+
+.product_buttons .buttons a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.h2_mobile {
+  display: block;
+}
+
+.h2_desk {
+  display: none;
+}
+
+.body {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.blurred {
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+@media screen and (min-width: 768px) {
+  .modal-2 {
+    width: calc(100% - 240px);
+    margin: 96px;
   }
+
+  .modal-2 .all {
+    display: flex;
+    flex-direction: row;
+  }
+
   .all p {
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #344563;
+    width: 100%;
   }
-  
+
+  .all div.image {
+    width: 55vw;
+    margin: 24px 24px 24px 0;
+  }
+
+  .all div.image img {
+    width: 100%;
+    max-height: 400px;
+    min-width: 270px;
+
+  }
+
   .all .product_buttons {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
   }
-  
+
   .product_buttons .buttons {
-    width: 150px;
-  }
-  
-  .product_buttons .buttons a{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    margin-right: 12px;
   }
 
   .h2_mobile {
-    display: block;
-  }
-
-  .h2_desk {
     display: none;
   }
 
-  .body {
-    background-color: rgba(255, 255, 255, 0.4);
+  .h2_desk {
+    display: block;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #172b4d;
   }
-  .blurred {
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
-  }
-
-  @media screen and (min-width: 768px) {
-    .modal-2 {
-      width: calc(100% - 240px);
-      margin: 96px;
-    }
-    .modal-2 .all {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .all p {
-      width: 100%;
-    }
-
-    .all div.image {
-        width: 55vw;
-        margin: 24px 24px 24px 0;
-    }
-    .all div.image img {
-        width: 100%;
-        max-height: 400px;
-        min-width: 270px;
-        
-      }
-
-      .all .product_buttons {
-        display: flex;
-        justify-content: left;
-      }
-
-      .product_buttons .buttons {
-        margin-right: 12px;
-      }
-
-      .h2_mobile {
-        display: none;
-      }
-    
-      .h2_desk {
-        display: block;
-      }
-  }
+}

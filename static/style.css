@@ -897,4 +897,6 @@ a:hover img {
   }
 }
 
-label { visibility: hidden; }
+label {
+  visibility: hidden;
+}
