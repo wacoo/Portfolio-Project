@@ -21,9 +21,9 @@ const keyValuePair3 = {
   ul: 'ul',
   a: 'a',
   p: 'p',
-  'p-2': 'p'
+  'p-2': 'p',
 
-}
+};
 
 const popUpData = {
   name_desk: 'Keeping track of hundreds  of components website',
@@ -39,11 +39,11 @@ const popUpData = {
   link_to_live_version: 'https://wacoo.github.io/Portfolio-Project',
   link_to_source: 'https://github.com/wacoo/Portfolio-Project',
 
-}
+};
 
 const noClassAtributes2 = ['img', 'ul', 'li', 'a', 'p', 'p-2'];
 
-for (let key in keyValuePair3) {
+Object.keys(keyValuePair3).forEach((key) => {
   popUpObject[key] = document.createElement(keyValuePair3[key]);
   if (!noClassAtributes2.includes(key)) {
     popUpObject[key].classList.add(key);
@@ -54,9 +54,9 @@ for (let key in keyValuePair3) {
   if (key === 'close-2') {
     popUpObject[key].id = 'close';
   }
-}
+});
 
-//Title
+// Title
 popUpObject['close-2'].innerHTML = '&times;';
 popUpObject.wrp.appendChild(popUpObject['close-2']);
 popUpObject.head.appendChild(popUpObject.wrp);
@@ -67,7 +67,7 @@ popUpObject.h2_mobile.innerHTML = popUpData.name_mob;
 popUpObject.head.appendChild(popUpObject.h2_desk);
 popUpObject.head.appendChild(popUpObject.h2_mobile);
 
-for (let i = 0; i < popUpData.technologies.length; i++) {
+for (let i = 0; i < popUpData.technologies.length; i += 1) {
   const li = document.createElement('li');
   li.innerHTML = popUpData.technologies[i];
   popUpObject.ul.appendChild(li);

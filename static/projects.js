@@ -2,7 +2,6 @@ const recentWorksSection = document.querySelector('.recent_works');
 const showCaseSection = document.querySelector('.show_case');
 
 const recentWorksObject = {};
-const projectData = [];
 const keyValuePair = {
   wrapper: 'div',
   title: 'div',
@@ -18,24 +17,23 @@ const keyValuePair = {
   line: 'hr',
   ul: 'ul',
   a: 'a',
-  p: 'p'
-}
+  p: 'p',
+};
 
 const recentData = {
   title: 'My Recent Works',
   name: 'Multi-Post Stories',
-  description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required:\
-    has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+  description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required: has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
   featuredImage: '/static/images/ph1.png',
   technologies: ['HTML', 'CSS', 'Bootstrap', 'Ruby'],
   link_to_live_version: '',
   link_to_source: '',
 
-}
+};
 
 const noClassAtributes = ['hr', 'ul', 'li', 'a'];
 
-for (let key in keyValuePair) {
+Object.keys(keyValuePair).forEach((key) => {
   recentWorksObject[key] = document.createElement(keyValuePair[key]);
   if (!noClassAtributes.includes(key)) {
     recentWorksObject[key].classList.add(key);
@@ -46,18 +44,18 @@ for (let key in keyValuePair) {
   if (key === 'a') {
     recentWorksObject[key].id = 'a-1';
   }
-}
+});
 
-//Title
+// Title
 recentWorksObject.h2.innerHTML = recentData.title;
 recentWorksObject.title.appendChild(recentWorksObject.h2);
 recentWorksObject.title.appendChild(recentWorksObject.line);
 recentWorksObject.wrapper.appendChild(recentWorksObject.title);
 recentWorksObject.wrapper.appendChild(recentWorksObject.recent_summary);
 
-//Recent summary
+// Recent summary
 recentWorksObject.ph_image.src = recentData.featuredImage;
-recentWorksObject.ph_image.alt = "Gymnasium image";
+recentWorksObject.ph_image.alt = 'Gymnasium image';
 
 recentWorksObject.h3.innerHTML = recentData.name;
 recentWorksObject.p.innerHTML = recentData.description;
@@ -65,15 +63,15 @@ recentWorksObject.p.innerHTML = recentData.description;
 recentWorksObject.mp_stories.appendChild(recentWorksObject.h3);
 recentWorksObject.mp_stories.appendChild(recentWorksObject.p);
 
-for (let i = 0; i < recentData.technologies.length; i++) {
+for (let i = 0; i < recentData.technologies.length; i += 1) {
   const li = document.createElement('li');
   li.innerHTML = recentData.technologies[i];
   recentWorksObject.ul.appendChild(li);
 }
 recentWorksObject.links.appendChild(recentWorksObject.ul);
 
-recentWorksObject.a.href = "#";
-recentWorksObject.a.innerHTML = "See project";
+recentWorksObject.a.href = '#';
+recentWorksObject.a.innerHTML = 'See project';
 recentWorksObject.buttons.appendChild(recentWorksObject.a);
 
 recentWorksObject.place_holder.appendChild(recentWorksObject.ph_image);
@@ -91,7 +89,6 @@ recentWorksSection.appendChild(recentWorksObject.wrapper);
 
 // Cards
 const showCaseObject = {};
-const projectDataSK = [];
 const keyValuePairSK = {
   wrapper: 'div',
   mp_stories: 'div',
@@ -100,10 +97,10 @@ const keyValuePairSK = {
   h3: 'h3',
   ul: 'ul',
   a: 'a',
-  p: 'p'
-}
+  p: 'p',
+};
 
-for (let i = 1; i <= 8; i++) {
+for (let i = 1; i <= 8; i += 1) {
   keyValuePairSK[`child-${i}`] = 'article';
   keyValuePairSK[`mp_stories-${i}`] = 'div';
   keyValuePairSK[`links-${i}`] = 'div';
@@ -113,94 +110,84 @@ for (let i = 1; i <= 8; i++) {
   keyValuePairSK[`p-${i}`] = 'p';
   keyValuePairSK[`ul-${i}`] = 'ul';
   keyValuePairSK[`a-${i}`] = 'a';
-
 }
-
 
 const showCaseData = [
   {
     name: 'Professional Art<br>Printing Data',
-    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has\
-        been the industry\'s standard.',
+    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
     featuredImage: '/static/images/bg_c1.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     link_to_live_version: '',
-    link_to_source: ''
+    link_to_source: '',
 
   },
   {
     name: 'Data Dashboard<br> Healthcare',
-    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has\
-        been the industry\'s standard.',
+    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
     featuredImage: '/static/images/bg_c2.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     link_to_live_version: '',
-    link_to_source: ''
+    link_to_source: '',
 
   },
   {
     name: 'Website Portfolio',
-    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has\
-        been the industry\'s standard.',
+    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
     featuredImage: '/static/images/bg_c3.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     link_to_live_version: '',
-    link_to_source: ''
+    link_to_source: '',
 
   },
   {
     name: 'Professional Art<br>Printing Data',
-    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has\
-        been the industry\'s standard.',
+    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
     featuredImage: '/static/images/bg_c1.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     link_to_live_version: '',
-    link_to_source: ''
+    link_to_source: '',
 
   },
   {
     name: 'Professional Art<br>Printing Data',
-    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has\
-        been the industry\'s standard.',
+    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
     featuredImage: '/static/images/bg_c1.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     link_to_live_version: '',
-    link_to_source: ''
+    link_to_source: '',
 
   },
   {
     name: 'Professional Art<br>Printing Data',
-    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has\
-        been the industry\'s standard.',
+    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
     featuredImage: '/static/images/bg_c1.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     link_to_live_version: '',
-    link_to_source: ''
+    link_to_source: '',
 
   },
   {
     name: 'Professional Art<br>Printing Data',
-    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has\
-        been the industry\'s standard.',
+    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
     featuredImage: '/static/images/bg_c1.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     link_to_live_version: '',
-    link_to_source: ''
+    link_to_source: '',
 
   },
   {
     name: 'Professional Art<br>Printing Data',
-    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has\
-        been the industry\'s standard.',
+    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
     featuredImage: '/static/images/bg_c1.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     link_to_live_version: '',
-    link_to_source: ''
+    link_to_source: '',
 
-  }
-]
+  },
+];
 let count = 2;
-for (let key in keyValuePairSK) {
+Object.keys(keyValuePairSK).forEach((key) => {
   showCaseObject[key] = document.createElement(keyValuePairSK[key]);
   if (!noClassAtributes.includes(key)) {
     if (key.substring(0, 10) === 'mp_stories') {
@@ -225,19 +212,18 @@ for (let key in keyValuePairSK) {
     showCaseObject[key].classList.add('img_p_holder');
   }
   if (key.substring(0, 2) === 'a-') {
-    showCaseObject[key].id = 'a-' + count;
-    count++;
+    showCaseObject[key].id = `a-${count}`;
+    count += 1;
   }
-}
+});
 
-
-window.addEventListener('resize', function (event) {
+window.addEventListener('resize', () => {
   window.location.reload();
 }, true);
 
 // 6 times
-for (let i = 1; i <= 8; i++) {
-  let x = window.matchMedia("(min-width: 768px)");
+for (let i = 1; i <= 8; i += 1) {
+  const x = window.matchMedia('(min-width: 768px)');
   let c = i - 1;
   if (x.matches && (c === 4)) {
     c = 1;
@@ -247,15 +233,14 @@ for (let i = 1; i <= 8; i++) {
   showCaseObject[`h3-${i}`].innerHTML = showCaseData[c].name;
   showCaseObject[`p-${i}`].innerHTML = showCaseData[c].description;
 
-  for (let j = 0; j < showCaseData[c].technologies.length; j++) {
+  for (let j = 0; j < showCaseData[c].technologies.length; j += 1) {
     const li = document.createElement('li');
     li.innerHTML = showCaseData[c].technologies[j];
     showCaseObject[`ul-${i}`].appendChild(li);
   }
 
-
-  showCaseObject[`a-${i}`].href = "#";
-  showCaseObject[`a-${i}`].innerHTML = "See project";
+  showCaseObject[`a-${i}`].href = '#';
+  showCaseObject[`a-${i}`].innerHTML = 'See project';
 
   showCaseObject[`mp_stories-${i}`].appendChild(showCaseObject[`h3-${i}`]);
   showCaseObject[`mp_stories-${i}`].appendChild(showCaseObject[`p-${i}`]);
@@ -265,10 +250,8 @@ for (let i = 1; i <= 8; i++) {
   showCaseObject[`child-${i}`].appendChild(showCaseObject[`mp_stories-${i}`]);
   showCaseObject[`child-${i}`].appendChild(showCaseObject[`links-${i}`]);
   showCaseObject[`child-${i}`].appendChild(showCaseObject[`buttons-${i}`]);
-  showCaseObject['wrapper'].appendChild(showCaseObject[`child-${i}`]);
-
+  showCaseObject.wrapper.appendChild(showCaseObject[`child-${i}`]);
 }
 
-//Add data
+// Add data
 showCaseSection.appendChild(showCaseObject.wrapper);
-

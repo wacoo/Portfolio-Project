@@ -51,8 +51,9 @@
   border: 0;
 }
 
-.modal-2::backdrop {
-  background-color: red;
+dialog::backdrop {
+  background-color: rgb(163, 159, 159);
+  opacity: 0.9;
 }
 
 .all .text_side {
@@ -62,7 +63,7 @@
   margin: 24px 24px 24px 0;
 }
 
-.all .text_side .buttons {
+.text_side .buttons {
   height: 100%;
 }
 
@@ -89,7 +90,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .all h2 {
@@ -97,7 +97,7 @@
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #172b4d;
 }
@@ -106,14 +106,13 @@
   display: flex;
   justify-content: left;
   padding: 0;
-  margin: 24px 0px 24px 0;
+  margin: 24px 0 24px 0;
 }
 
 .all div.image img {
   width: 100%;
   max-height: 400px;
   min-width: 270px;
-
 }
 
 .modal-2 .links {
@@ -125,10 +124,9 @@
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #3c3a39;
-
 }
 
 .all p {
@@ -136,7 +134,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #344563;
 }
@@ -182,6 +180,7 @@
   .modal-2 .all {
     display: flex;
     flex-direction: row;
+    margin: 24px;
   }
 
   .all p {
@@ -197,7 +196,6 @@
     width: 100%;
     max-height: 400px;
     min-width: 270px;
-
   }
 
   .all .product_buttons {
@@ -219,7 +217,7 @@
     font-size: 32px;
     font-weight: 400;
     line-height: 44px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     color: #172b4d;
   }
