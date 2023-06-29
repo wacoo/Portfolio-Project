@@ -1,0 +1,294 @@
+/* Modals */
+
+.modal-1 {
+  width: 100%;
+  height: 850px;
+  background-color: #3c3a39;
+  color: #fff5e1;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  font-family: 'Roboto', sans-serif;
+  border: 0;
+}
+
+.modal-1 div {
+  display: flex;
+  justify-content: right;
+  padding: 24px;
+  color: #6f6c6b;
+  font-weight: 400;
+}
+
+.modal-1 ul {
+  list-style-type: none;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.modal-1 ul li {
+  padding: 8px 16px;
+  border-bottom: #6f6c6b solid 1px;
+}
+
+.modal-1 ul li a {
+  color: #fff5e1;
+  text-decoration: none;
+}
+
+.modal-2 {
+  width: calc(100% - 48px);
+  padding: 12px;
+  margin: 24px 0 0 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border: 0;
+}
+
+dialog::backdrop {
+  background-color: rgb(163, 159, 159);
+  opacity: 0.9;
+}
+
+.all .text_side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.all .text_side p {
+  padding-right: 0;
+  text-align: justify;
+}
+
+.modal-2 div.wrp {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 12px 12px 0 0;
+}
+
+.modal-2 .close-1 {
+  padding-top: 24px;
+}
+
+.modal-2 .all {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modal-2 .h2_mobile {
+  width: 259px;
+  height: 82px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #172b4d;
+}
+
+.all div.image {
+  display: flex;
+  justify-content: left;
+  padding: 0;
+  margin: 0 0 24px 0;
+}
+
+.all div.image img {
+  width: 100%;
+  max-height: 400px;
+}
+
+.modal-2 .links {
+  padding: 24px 0;
+}
+
+.modal-2 .head ul li {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #3c3a39;
+  margin-top: 24px;
+}
+
+.modal-2 .all p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #344563;
+}
+
+.all .product_buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+.live_btn_div {
+  width: 129px;
+  height: 48px;
+  margin-right: 12px;
+}
+
+.live_btn_div .aLive {
+  width: 129px;
+  margin-right: 12px;
+}
+
+.source_btn_div {
+  width: 158px;
+  height: 48px;
+  display: flex;
+  justify-content: right;
+}
+
+.source_btn_div .aSource {
+  width: 158px;
+}
+
+.product_buttons .buttons a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 120px;
+}
+
+.wrp .h2_mobile {
+  display: block;
+}
+
+.h2_desk {
+  display: none;
+}
+
+.body {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.blurred {
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+@media screen and (min-width: 768px) {
+  .modal-2 {
+    width: calc(100% - 240px);
+  }
+
+  .modal-2 div.wrp {
+    margin-top: 12px;
+    margin-right: 24px;
+  }
+
+  .modal-2 .head div.links {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+  }
+
+  .modal-2 .links ul {
+    margin: 0 0 24px 0;
+    padding: 0;
+  }
+
+  .modal-2 .links ul li {
+    margin-top: 0;
+  }
+
+  .close-2 {
+    margin: 12px;
+  }
+
+  .modal-2 .head {
+    margin-left: 24px;
+  }
+
+  .modal-2 .all {
+    width: calc(100% - 24px);
+    display: flex;
+    flex-direction: row;
+    margin: 12px;
+  }
+
+  .all p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .all div.image {
+    width: 40vw;
+    margin: 0 24px 0 0;
+  }
+
+  .all div.image img {
+    width: 100%;
+    height: 100%;
+    min-width: 270px;
+  }
+
+  .all .product_buttons {
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+  }
+
+  .product_buttons .buttons {
+    margin-right: 12px;
+  }
+
+  .source_btn_div {
+    padding: 0;
+    margin: 0;
+  }
+
+  .live_btn_div {
+    padding: 0;
+    margin: 0;
+  }
+
+  .aLive {
+    margin: 0 12px 0 0;
+    padding: 0;
+  }
+
+  .aSource {
+    padding: 0;
+  }
+
+  .wrp .h2_mobile {
+    display: none;
+  }
+
+  .h2_desk {
+    display: block;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #172b4d;
+  }
+}
