@@ -277,7 +277,7 @@ dialog::backdrop {
     padding: 0;
   }
 
-  .h2_mobile {
+  .wrp .h2_mobile {
     display: none;
   }
 
