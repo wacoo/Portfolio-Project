@@ -39,15 +39,12 @@
 }
 
 .modal-2 {
-  width: calc(100% - 96px);
-  padding: 24px;
-  margin: 24px 24px 0 24px;
+  /* width: calc(100% - 96px); */
+  padding: 12px;
+  margin: 24px 0 0 0;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #fff;
-  color: #344563;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 44px;
-  font-family: 'Roboto', sans-serif;
   border: 0;
 }
 
@@ -59,8 +56,17 @@ dialog::backdrop {
 .all .text_side {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  margin: 24px 24px 24px 0;
+  justify-content: center;
+  /* margin: 24px 0 24px 0; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.all .text_side p {
+  padding-right: 0px;
+  /* outline: #172b4d solid 2px; */
+  text-align: justify;
+  margin-right: 12px;
 }
 
 .text_side .buttons {
@@ -92,7 +98,9 @@ dialog::backdrop {
   justify-content: center;
 }
 
-.all h2 {
+.h2_mobile {
+  width: 259px;
+  height: 82px;
   font-family: 'Roboto', sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -112,7 +120,7 @@ dialog::backdrop {
 .all div.image img {
   width: 100%;
   max-height: 400px;
-  min-width: 270px;
+  /* min-width: 270px; */
 }
 
 .modal-2 .links {
@@ -144,14 +152,23 @@ dialog::backdrop {
   justify-content: space-between;
 }
 
-.product_buttons .buttons {
-  width: 150px;
+
+.live_btn_div .aLive{
+  width: 129px;
+  margin-right: 12px;
+}
+
+.source_btn_div .aSource {
+  width: 158px;
+  margin-right: 12px;
 }
 
 .product_buttons .buttons a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 120px;
+
 }
 
 .h2_mobile {
@@ -174,7 +191,11 @@ dialog::backdrop {
 @media screen and (min-width: 768px) {
   .modal-2 {
     width: calc(100% - 240px);
-    margin: 96px;
+    /* margin: 96px; */
+  }
+
+  .modal-2 .head {
+    margin-left: 24px;
   }
 
   .modal-2 .all {
@@ -221,4 +242,37 @@ dialog::backdrop {
     text-align: left;
     color: #172b4d;
   }
+
+  
+  /* .modal-2 .all {
+    width: 100%;
+    
+  }
+  .pic_side div.image {
+    width: 50vw;
+    margin: 12px;
+    outline: red solid 2px;
+  }
+  .pic_side .image img {
+    width: calc(10vw - 48px);
+    height: 320px;
+  } */
+    
 }
+  .all .text_side p {
+    width: calc(100% - 12px);
+    padding-right: 12px;
+    margin-left: 0;
+    margin-right: 0;
+    /* outline: #172b4d solid 2px; */
+    /* text-align: justify; */
+  }
+
+  .all .text_side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 24px 24px 0 0;
+  }
+
