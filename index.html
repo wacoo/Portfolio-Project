@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wonde's portfolio home page</title>
   <link rel="stylesheet" href="static/style.css">
+  <link rel="stylesheet" href="static/validate.css">
   <link rel="stylesheet" href="static/modal_style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -165,15 +166,16 @@
         <div class="announcement">
           <p>I'm alway interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
         </div>
-        <form action="https://formspree.io/f/mqkorawk" method="POST" class="form">
+        <form action="https://formspree.io/f/mqkorawk" method="POST" class="form" id="frm">
           <label for="fname">Full name</label>
-          <input type="text" maxlength="30" id="fname" placeholder="Full Name" required>
+          <input type="text" maxlength="30" id="fname" class="valid" Full Name" required>
           <label for="email">Email address</label>
-          <input type="email" id="email" placeholder="Email address" required>
+          <input type="email" id="email" class="invalid" Email address" required>
           <label for="message">Message</label>
           <textarea name="message" id="message" cols="30" rows="5" placeholder="Write me something..." maxlength="500"
             required></textarea>
-          <div class="button">
+          <small class="error"></small>
+          <div class="button">            
             <button type="submit">Get in touch</button>
           </div>
         </form>
@@ -204,6 +206,7 @@
   </main>
   <script src="/static/projects.js"></script>
   <script src="/static/script.js"></script>
+  <script src="/static/input_validation.js"></script>
   <script src="/static/popup.js"></script>
 </body>
 
