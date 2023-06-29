@@ -4,7 +4,7 @@ const btnClose = document.querySelector('.close-1');
 
 const links = document.querySelectorAll('.lnks a');
 
-function closeModal(link, idx) {
+function closeModal(link) {
   link.addEventListener('click', () => {
     modalMenu.close();
   });
