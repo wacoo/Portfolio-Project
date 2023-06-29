@@ -39,7 +39,7 @@
 }
 
 .modal-2 {
-  /* width: calc(100% - 96px); */
+  width: calc(100% - 48px);
   padding: 12px;
   margin: 24px 0 0 0;
   margin-left: auto;
@@ -57,32 +57,21 @@ dialog::backdrop {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* margin: 24px 0 24px 0; */
   margin-left: auto;
   margin-right: auto;
 }
 
 .all .text_side p {
-  padding-right: 0px;
-  /* outline: #172b4d solid 2px; */
+  padding-right: 0;
   text-align: justify;
-  margin-right: 12px;
-}
-
-.text_side .buttons {
-  height: 100%;
-}
-
-.modal-2 div {
-  color: #6f6c6b;
-  font-weight: 400;
 }
 
 .modal-2 div.wrp {
+  height: 50px;
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
   padding: 0;
-  margin: 0;
+  margin: 12px 12px 0 0;
 }
 
 .modal-2 .close-1 {
@@ -98,11 +87,11 @@ dialog::backdrop {
   justify-content: center;
 }
 
-.h2_mobile {
+.modal-2 .h2_mobile {
   width: 259px;
   height: 82px;
   font-family: 'Roboto', sans-serif;
-  font-size: 32px;
+  font-size: 31px;
   font-weight: 700;
   line-height: 44px;
   letter-spacing: 0;
@@ -114,20 +103,19 @@ dialog::backdrop {
   display: flex;
   justify-content: left;
   padding: 0;
-  margin: 24px 0 24px 0;
+  margin: 0 0 24px 0;
 }
 
 .all div.image img {
   width: 100%;
   max-height: 400px;
-  /* min-width: 270px; */
 }
 
 .modal-2 .links {
   padding: 24px 0;
 }
 
-.all ul li {
+.modal-2 .head ul li {
   font-family: 'Poppins', sans-serif;
   font-size: 13px;
   font-weight: 600;
@@ -135,9 +123,10 @@ dialog::backdrop {
   letter-spacing: 0;
   text-align: left;
   color: #3c3a39;
+  margin-top: 24px;
 }
 
-.all p {
+.modal-2 .all p {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -150,17 +139,29 @@ dialog::backdrop {
 .all .product_buttons {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 24px;
 }
 
+.live_btn_div {
+  width: 129px;
+  height: 48px;
+  margin-right: 12px;
+}
 
-.live_btn_div .aLive{
+.live_btn_div .aLive {
   width: 129px;
   margin-right: 12px;
 }
 
+.source_btn_div {
+  width: 158px;
+  height: 48px;
+  display: flex;
+  justify-content: right;
+}
+
 .source_btn_div .aSource {
   width: 158px;
-  margin-right: 12px;
 }
 
 .product_buttons .buttons a {
@@ -168,10 +169,9 @@ dialog::backdrop {
   align-items: center;
   justify-content: space-between;
   width: 120px;
-
 }
 
-.h2_mobile {
+.wrp .h2_mobile {
   display: block;
 }
 
@@ -191,7 +191,32 @@ dialog::backdrop {
 @media screen and (min-width: 768px) {
   .modal-2 {
     width: calc(100% - 240px);
-    /* margin: 96px; */
+  }
+
+  .modal-2 div.wrp {
+    margin-top: 12px;
+    margin-right: 24px;
+  }
+
+  .modal-2 .head div.links {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+  }
+
+  .modal-2 .links ul {
+    margin: 0 0 24px 0;
+    padding: 0;
+  }
+
+  .modal-2 .links ul li {
+    margin-top: 0;
+  }
+
+  .close-2 {
+    margin: 12px;
   }
 
   .modal-2 .head {
@@ -199,33 +224,57 @@ dialog::backdrop {
   }
 
   .modal-2 .all {
+    width: calc(100% - 24px);
     display: flex;
     flex-direction: row;
-    margin: 24px;
+    margin: 12px;
   }
 
   .all p {
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   .all div.image {
-    width: 55vw;
-    margin: 24px 24px 24px 0;
+    width: 40vw;
+    margin: 0 24px 0 0;
   }
 
   .all div.image img {
     width: 100%;
-    max-height: 400px;
+    height: 100%;
     min-width: 270px;
   }
 
   .all .product_buttons {
+    height: 100%;
     display: flex;
     justify-content: left;
+    align-items: flex-end;
   }
 
   .product_buttons .buttons {
     margin-right: 12px;
+  }
+
+  .source_btn_div {
+    padding: 0;
+    margin: 0;
+  }
+
+  .live_btn_div {
+    padding: 0;
+    margin: 0;
+  }
+
+  .aLive {
+    margin: 0 12px 0 0;
+    padding: 0;
+  }
+
+  .aSource {
+    padding: 0;
   }
 
   .h2_mobile {
@@ -242,37 +291,4 @@ dialog::backdrop {
     text-align: left;
     color: #172b4d;
   }
-
-  
-  /* .modal-2 .all {
-    width: 100%;
-    
-  }
-  .pic_side div.image {
-    width: 50vw;
-    margin: 12px;
-    outline: red solid 2px;
-  }
-  .pic_side .image img {
-    width: calc(10vw - 48px);
-    height: 320px;
-  } */
-    
 }
-  .all .text_side p {
-    width: calc(100% - 12px);
-    padding-right: 12px;
-    margin-left: 0;
-    margin-right: 0;
-    /* outline: #172b4d solid 2px; */
-    /* text-align: justify; */
-  }
-
-  .all .text_side {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 24px 24px 0 0;
-  }
-

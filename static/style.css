@@ -21,7 +21,7 @@
 .buttons a {
   padding: 12px;
   color: #fff;
-  background-color: rgb(166, 97, 11);
+  background-color: #ff6b00;
   text-decoration: none;
   font-size: 17px;
   font-weight: 700;
@@ -408,7 +408,7 @@
 
 .contact .form button {
   height: 48px;
-  background-color: rgb(166, 97, 11);
+  background-color: #ff6b00;
   padding: 12px;
   font-size: 17px;
   font-weight: 700;

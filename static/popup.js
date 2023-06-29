@@ -57,15 +57,16 @@ Object.keys(keyValuePair3).forEach((key) => {
 });
 
 // Title
-popUpObject['close-2'].innerHTML = '&times;';
-popUpObject.wrp.appendChild(popUpObject['close-2']);
-popUpObject.head.appendChild(popUpObject.wrp);
+popUpObject['close-2'].innerHTML = '<h2>&times;</h2>';
 
 popUpObject.h2_desk.innerHTML = popUpData.name_desk;
 popUpObject.h2_mobile.innerHTML = popUpData.name_mob;
 
-popUpObject.head.appendChild(popUpObject.h2_desk);
-popUpObject.head.appendChild(popUpObject.h2_mobile);
+popUpObject.wrp.appendChild(popUpObject.h2_desk);
+popUpObject.wrp.appendChild(popUpObject.h2_mobile);
+
+popUpObject.wrp.appendChild(popUpObject['close-2']);
+popUpObject.head.appendChild(popUpObject.wrp);
 
 for (let i = 0; i < popUpData.technologies.length; i += 1) {
   const li = document.createElement('li');
@@ -82,10 +83,10 @@ popUpObject.image.append(popUpObject.img);
 popUpObject.pic_side.appendChild(popUpObject.image);
 
 popUpObject.p.innerHTML = popUpData.description;
-popUpObject.text_side.append(popUpObject.p);
+popUpObject.text_side.appendChild(popUpObject.p);
 
 popUpObject['p-2'].innerHTML = popUpData.description2;
-popUpObject.text_side.append(popUpObject['p-2']);
+popUpObject.text_side.appendChild(popUpObject['p-2']);
 
 popUpObject.aLive.href = popUpData.link_to_live_version;
 popUpObject.aSource.href = popUpData.link_to_source;
