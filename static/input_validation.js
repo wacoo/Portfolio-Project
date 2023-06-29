@@ -1,19 +1,21 @@
 const form = document.getElementById('frm');
+const error = document.querySelector('.error');
+const email = form.elements['email'];
 
 form.addEventListener('submit', (event) => {
     event.preventDefault();
-    console.log(validateEmail());
+    if (validateEmail()) {
+        form.submit();
+    }
+    else {
+        error.innerHTML = 'Only lower case characters are allowed in the email field!';
+    }
 });
 
-function validateEmail() {
-    const email = form.elements['email'];
-    return isLowerCaseStr(email);
+function validateEmail() {       
+    return isLowerCaseStr(email.value);
 }
 
-function isLowerCaseStr(str) {
-    let emailRegex = '[a-z1-9]+@+[a-z]+\.[a-z]+';
-    for (let i = 0; i < str.length; i++) {
-        console.log('str.charAt(i)');
-    }
+function isLowerCaseStr(str) {    
     return str === String(str).toLowerCase();
 }
