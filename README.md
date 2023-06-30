@@ -42,6 +42,7 @@ After you're finished please remove all the comments and instructions!
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [💻 Project Presentation](#presentation)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -77,9 +78,12 @@ After you're finished please remove all the comments and instructions!
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- Click <a href="https://wacoo.github.io">here</a> to open the live demo.
+- Click <a href="https://wacoo.github.io/Portfolio-Project">here</a> to open the live demo.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 💻 Project Presentation <a name="presentation"></a>
+- Click <a href="https://www.loom.com/share/8e291776b29a440bbbfdfa1957b2daa4?sid=27d8459f-d153-4e59-b490-b8ce82c5109b">here</a> to open the presentation.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>

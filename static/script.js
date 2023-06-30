@@ -11,11 +11,7 @@ window.addEventListener('DOMContentLoaded', () => {
       modalMenu.close();
     });
   }
-function closeModal(link) {
-  link.addEventListener('click', () => {
-    modalMenu.close();
-  });
-}
+
   for (let i = 1; i <= 9; i += 1) {
     const btnLinks = document.getElementById(`a-${i}`);
     btnLinks.addEventListener('click', (event) => {
