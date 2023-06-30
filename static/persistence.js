@@ -21,13 +21,3 @@ function retiveData() {
   eMail.value = formDataR.email;
   msg.value = formDataR.message;
 }
-
-for (let i = 0; i < form1.elements.length; i += 1) {
-  form1.elements[i].addEventListener('input', () => {
-    storeData();
-  });
-}
-
-window.addEventListener('load', () => {
-  retiveData();
-});
