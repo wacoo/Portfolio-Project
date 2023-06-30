@@ -24,7 +24,7 @@ const recentData = {
   title: 'My Recent Works',
   name: 'Multi-Post Stories',
   description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required: has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-  featuredImage: '/static/images/ph1.png',
+  featuredImage: 'static/images/ph1.png',
   technologies: ['HTML', 'CSS', 'Bootstrap', 'Ruby'],
   link_to_live_version: '',
   link_to_source: '',
@@ -116,7 +116,7 @@ const showCaseData = [
   {
     name: 'Professional Art<br>Printing Data',
     description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
-    featuredImage: '/static/images/bg_c1.png',
+    featuredImage: 'static/images/bg_c1.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     link_to_live_version: '',
     link_to_source: '',
@@ -125,7 +125,7 @@ const showCaseData = [
   {
     name: 'Data Dashboard<br> Healthcare',
     description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
-    featuredImage: '/static/images/bg_c2.png',
+    featuredImage: 'static/images/bg_c2.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     link_to_live_version: '',
     link_to_source: '',
@@ -134,7 +134,7 @@ const showCaseData = [
   {
     name: 'Website Portfolio',
     description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
-    featuredImage: '/static/images/bg_c3.png',
+    featuredImage: 'static/images/bg_c3.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     link_to_live_version: '',
     link_to_source: '',
@@ -143,7 +143,7 @@ const showCaseData = [
   {
     name: 'Professional Art<br>Printing Data',
     description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
-    featuredImage: '/static/images/bg_c1.png',
+    featuredImage: 'static/images/bg_c1.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     link_to_live_version: '',
     link_to_source: '',
@@ -152,7 +152,7 @@ const showCaseData = [
   {
     name: 'Professional Art<br>Printing Data',
     description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
-    featuredImage: '/static/images/bg_c1.png',
+    featuredImage: 'static/images/bg_c1.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     link_to_live_version: '',
     link_to_source: '',
@@ -161,7 +161,7 @@ const showCaseData = [
   {
     name: 'Professional Art<br>Printing Data',
     description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
-    featuredImage: '/static/images/bg_c1.png',
+    featuredImage: 'static/images/bg_c1.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     link_to_live_version: '',
     link_to_source: '',
@@ -170,7 +170,7 @@ const showCaseData = [
   {
     name: 'Professional Art<br>Printing Data',
     description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
-    featuredImage: '/static/images/bg_c1.png',
+    featuredImage: 'static/images/bg_c1.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     link_to_live_version: '',
     link_to_source: '',
@@ -179,7 +179,7 @@ const showCaseData = [
   {
     name: 'Professional Art<br>Printing Data',
     description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
-    featuredImage: '/static/images/bg_c1.png',
+    featuredImage: 'static/images/bg_c1.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     link_to_live_version: '',
     link_to_source: '',
