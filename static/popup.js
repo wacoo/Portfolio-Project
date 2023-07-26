@@ -78,8 +78,8 @@ Object.keys(keyValuePair3).forEach((key) => {
 // Title
 popUpObject["close-2"].innerHTML = "<h2>&times;</h2>";
 
-popUpObject.h2_desk.innerHTML = popUpData[0].name_desk;
-popUpObject.h2_mobile.innerHTML = popUpData[0].name_mob;
+//popUpObject.h2_desk.innerHTML = popUpData[0].name_desk;
+///popUpObject.h2_mobile.innerHTML = popUpData[0].name_mob;
 
 popUpObject.wrp.appendChild(popUpObject.h2_desk);
 popUpObject.wrp.appendChild(popUpObject.h2_mobile);
@@ -89,29 +89,29 @@ popUpObject.head.appendChild(popUpObject.wrp);
 
 for (let i = 0; i < popUpData[0].technologies.length; i += 1) {
   const li = document.createElement("li");
-  li.innerHTML = popUpData[0].technologies[i];
+  //li.innerHTML = popUpData[0].technologies[i];
   popUpObject.ul.appendChild(li);
 }
 
 popUpObject.links.appendChild(popUpObject.ul);
 popUpObject.head.appendChild(popUpObject.links);
 
-popUpObject.img.src = popUpData[0].featuredImage;
+//popUpObject.img.src = popUpData[0].featuredImage;
 popUpObject.img.alt = "Snapshoot portfolio image";
 popUpObject.image.append(popUpObject.img);
 popUpObject.pic_side.appendChild(popUpObject.image);
 
-popUpObject.p.innerHTML = popUpData[0].description;
+//popUpObject.p.innerHTML = popUpData[0].description;
 popUpObject.text_side.appendChild(popUpObject.p);
 
-popUpObject["p-2"].innerHTML = popUpData[0].description2;
+//popUpObject["p-2"].innerHTML = popUpData[0].description2;
 popUpObject.text_side.appendChild(popUpObject["p-2"]);
 
-popUpObject.aLive.href = popUpData[0].link_to_live_version;
-popUpObject.aSource.href = popUpData[0].link_to_source;
+//popUpObject.aLive.href = popUpData[0].link_to_live_version;
+//popUpObject.aSource.href = popUpData[0].link_to_source;
 
-popUpObject.aLive.innerHTML = popUpData[0].live_btn_txt;
-popUpObject.aSource.innerHTML = popUpData[0].source_btn_txt;
+//popUpObject.aLive.innerHTML = popUpData[0].live_btn_txt;
+//popUpObject.aSource.innerHTML = popUpData[0].source_btn_txt;
 
 popUpObject.live_btn_div.appendChild(popUpObject.aLive);
 popUpObject.source_btn_div.appendChild(popUpObject.aSource);
@@ -127,29 +127,34 @@ popUpObject.all.append(popUpObject.text_side);
 modal2.append(popUpObject.head);
 modal2.append(popUpObject.all);
 
-recentButton.addEventListener('click', (event) => {
-  event.preventDefault();
-  popUpObject.h2_desk.innerHTML = popUpData[1].name_desk;
-  popUpObject.h2_mobile.innerHTML = popUpData[1].name_mob;
+function addSeeMoreListener(btn) {
+  recentButton.addEventListener('click', (event) => {
+    event.preventDefault();
+    popUpObject.h2_desk.innerHTML = popUpData[x].name_desk;
+    popUpObject.h2_mobile.innerHTML = popUpData[x].name_mob;
+  
+    popUpObject.ul.innerHTML = '';
+    for (let i = 0; i < popUpData[x].technologies.length; i += 1) {
+      const li = document.createElement("li");
+      li.innerHTML = popUpData[x].technologies[i];
+      popUpObject.ul.appendChild(li);
+    }
+  
+    popUpObject.img.src = popUpData[x].featuredImage;
+  
+    popUpObject.p.innerHTML = popUpData[x].description;
+  
+    popUpObject["p-2"].innerHTML = popUpData[x].description2;
+  
+    popUpObject.aLive.href = popUpData[x].link_to_live_version;
+    popUpObject.aSource.href = popUpData[x].link_to_source;
+    popUpObject.aLive.innerHTML = popUpData[x].live_btn_txt;
+    popUpObject.aSource.innerHTML = popUpData[x].source_btn_txt;
+  }); 
+}
 
-  popUpObject.ul.innerHTML = '';
-  for (let i = 0; i < popUpData[1].technologies.length; i += 1) {
-    const li = document.createElement("li");
-    li.innerHTML = popUpData[1].technologies[i];
-    popUpObject.ul.appendChild(li);
-  }
+for(let x = 0; x < popUpData.length; x += 1) {
+  const btn = document.getElementById(`a-${x}`);
+  addSeeMoreListener(btn);
+}
 
-  popUpObject.img.src = popUpData[1].featuredImage;
-
-  popUpObject.p.innerHTML = popUpData[1].description;
-
-  popUpObject["p-2"].innerHTML = popUpData[1].description2;
-
-  popUpObject.aLive.href = popUpData[1].link_to_live_version;
-  popUpObject.aSource.href = popUpData[1].link_to_source;
-  popUpObject.aLive.innerHTML = popUpData[1].live_btn_txt;
-  popUpObject.aSource.innerHTML = popUpData[1].source_btn_txt;
-
-
-
-});
