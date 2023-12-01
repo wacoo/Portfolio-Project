@@ -22,10 +22,10 @@ const keyValuePair = {
 
 const recentData = {
   title: 'My Recent Works',
-  name: 'Multi-Post Stories',
-  description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required: has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-  featuredImage: 'static/images/ph1.png',
-  technologies: ['HTML', 'CSS', 'Bootstrap', 'Ruby'],
+  name: 'DEF-CON Conference',
+  description: ' The ultimate destination for hacking enthusiasts, cybersecurity professionals, and tech aficionados worldwide. This cutting-edge platform offers everything you need to make the most out of this premier cybersecurity event, from real-time updates on schedules and speakers to instant access to event information and resources.',
+  featuredImage: 'static/images/defcon/head.png',
+  technologies: ['HTML', 'CSS', 'Javascript'],
   link_to_live_version: '',
   link_to_source: '',
 
