@@ -27,6 +27,22 @@ const keyValuePair3 = {
 
 const popUpData = [
   {
+    name_desk: "DEF-CON Annual Cyber Security Conference",
+    name_mob: "DEF-CON Conference",
+    description:
+      "The ultimate destination for hacking enthusiasts, cybersecurity professionals, and tech aficionados worldwide. This cutting-edge platform offers everything you need to make the most out of this premier cybersecurity event, from real-time updates on schedules and speakers to instant access to event information and resources.",
+    description2:
+      "The ultimate destination for hacking enthusiasts, cybersecurity professionals, and tech aficionados worldwide.",
+    featuredImage: "static/images/defcon/head.png",
+    live_btn_txt: 'See live <img src="static/images/circle_arrow.png"  alt="">',
+    source_btn_txt: 'See source <img src="static/images/github3.png" alt="">',
+    technologies: ["HTML", "CSS", "JavaScript"],
+    live_button_img: "static/images/circle_arrow.png",
+    source_button_img: "static/images/github3.png",
+    link_to_live_version: "https://wacoo.github.io/DEF-CON_Summit/",
+    link_to_source: "https://github.com/wacoo/DEF-CON_Summit",
+  },
+  {
     name_desk: "Keeping track of hundreds  of components website",
     name_mob: "Multi-Post Stories",
     description:
@@ -43,20 +59,20 @@ const popUpData = [
     link_to_source: "https://github.com/wacoo/Portfolio-Project",
   },
   {
-    name_desk: "DEF-CON Annual Cyber Security Conference",
-    name_mob: "DEF-CON Conference",
+    name_desk: "Empowers users to effectively manage their finances",
+    name_mob: "Effective finance management",
     description:
-      "The ultimate destination for hacking enthusiasts, cybersecurity professionals, and tech aficionados worldwide. This cutting-edge platform offers everything you need to make the most out of this premier cybersecurity event, from real-time updates on schedules and speakers to instant access to event information and resources.",
+      " A mobile web app built with Rails that empowers users to effectively manage their finances. With Smart-Budget, users can create custom categories and track their expenses seamlessly.  By organizing their spending into categories such as groceries, transportation, entertainment, and more, users can gain a comprehensive understanding of their financial habits.",
     description2:
-      "The ultimate destination for hacking enthusiasts, cybersecurity professionals, and tech aficionados worldwide.",
-    featuredImage: "static/images/defcon/head.png",
+      "The app provides an intuitive interface for users to enter their expenses under the relevant categories. Additionally, Smart-Budget automatically calculates and displays the total budget for each category, enabling users to monitor their spending and make informed financial decisions.",
+    featuredImage: "static/images/budget/cat.png",
     live_btn_txt: 'See live <img src="static/images/circle_arrow.png"  alt="">',
     source_btn_txt: 'See source <img src="static/images/github3.png" alt="">',
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["HTML", "Bootstrap", "Ruby on rails"],
     live_button_img: "static/images/circle_arrow.png",
     source_button_img: "static/images/github3.png",
-    link_to_live_version: "https://wacoo.github.io/DEF-CON_Summit/",
-    link_to_source: "https://github.com/wacoo/DEF-CON_Summit",
+    link_to_live_version: "https://smart-budget-6u1l.onrender.com/",
+    link_to_source: "https://github.com/wacoo/smart-budget-ror-capstone",
   },
 ];
 
@@ -127,8 +143,8 @@ popUpObject.all.append(popUpObject.text_side);
 modal2.append(popUpObject.head);
 modal2.append(popUpObject.all);
 
-function addSeeMoreListener(btn) {
-  recentButton.addEventListener('click', (event) => {
+function addSeeMoreListener(btn, x) {
+  btn.addEventListener('click', (event) => {
     event.preventDefault();
     popUpObject.h2_desk.innerHTML = popUpData[x].name_desk;
     popUpObject.h2_mobile.innerHTML = popUpData[x].name_mob;
@@ -153,8 +169,8 @@ function addSeeMoreListener(btn) {
   }); 
 }
 
-for(let x = 0; x < popUpData.length; x += 1) {
+for(let x = 1; x <= popUpData.length; x += 1) {
   const btn = document.getElementById(`a-${x}`);
-  addSeeMoreListener(btn);
+  addSeeMoreListener(btn, x - 1 );
 }
 
