@@ -141,9 +141,9 @@ const showCaseData = [
 
   },
   {
-    name: 'Professional Art<br>Printing Data',
-    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
-    featuredImage: 'static/images/bg_c1.png',
+    name: 'Orbit Space<br>Travel Agency',
+    description: 'Orbit is a cutting-edge React-based app that unlocks the wonders of space exploration and commercial opportunities.',
+    featuredImage: 'static/images/orbit/home.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     link_to_live_version: '',
     link_to_source: '',

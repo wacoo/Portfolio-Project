@@ -87,8 +87,24 @@ const popUpData = [
     technologies: ["HTML", "Bootstrap", "Ruby on rails"],
     live_button_img: "static/images/circle_arrow.png",
     source_button_img: "static/images/github3.png",
-    link_to_live_version: "",
+    link_to_live_version: "#",
     link_to_source: "https://github.com/wacoo/cheapr-project",
+  },
+  {
+    name_desk: "Orbit: Your Gateway to Space Exploration and Commercial Ventures",
+    name_mob: "Orbit Space Travel Agency",
+    description:
+      "Orbit is a cutting-edge React-based app that unlocks the wonders of space exploration and commercial opportunities. Seamlessly blending scientific research and commercial endeavors, Orbit revolutionizes the way we engage with space.",
+    description2:
+      "Orbit is a cutting-edge React-based app that unlocks the wonders of space exploration and commercial opportunities. Seamlessly blending scientific research and commercial endeavors, Orbit revolutionizes the way we engage with space.",
+    featuredImage: "static/images/orbit/home.png",
+    live_btn_txt: 'See live <img src="static/images/circle_arrow.png"  alt="">',
+    source_btn_txt: 'See source <img src="static/images/github3.png" alt="">',
+    technologies: ["HTML", "Bootstrap", "Ruby on rails"],
+    live_button_img: "static/images/circle_arrow.png",
+    source_button_img: "static/images/github3.png",
+    link_to_live_version: "#",
+    link_to_source: "https://github.com/wacoo/orbit-space-travel-agency",
   },
 ];
 
