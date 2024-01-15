@@ -114,30 +114,30 @@ for (let i = 1; i <= 8; i += 1) {
 
 const showCaseData = [
   {
-    name: 'Professional Art<br>Printing Data',
-    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
+    name: 'Health Clinic<br>Website',
+    description: 'Health Clinic is modern appointment booking app that empowers you to manage your healthcare with ease.',
     featuredImage: 'static/images/bg_c1.png',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    link_to_live_version: '',
-    link_to_source: '',
+    technologies: ['React', 'Ruby on Rails', 'PostgreSQL'],
+    link_to_live_version: 'https://github.com/tajemouti/medical-appointments-front-end',
+    link_to_source: 'https://jade-rabanadas-479b96.netlify.app/',
 
   },
   {
     name: 'Effective Expense<br>Management',
     description: 'A mobile web app built with Rails that empowers users to effectively manage their finances.',
     featuredImage: 'static/images/budget/cat.png',
-    technologies: ['HTML', 'CSS', 'React', 'ROR'],
+    technologies: ['HTML', 'CSS', 'React', 'Ruby on Rails'],
     link_to_live_version: '',
     link_to_source: '',
 
   },
   {
-    name: 'Website Portfolio',
-    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
-    featuredImage: 'static/images/bg_c3.png',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
+    name: 'Cheapr Project<br>Web Application',
+    description: 'a revolutionary app that makes it easy to find nearby stores and service providers offering the best deals on quality goods and services.',
+    featuredImage: 'static/images/proj_imgs/cheapr.jpg',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Flask', 'MySQL'],
     link_to_live_version: '',
-    link_to_source: '',
+    link_to_source: 'https://github.com/wacoo/orbit-space-travel-agency',
 
   },
   {

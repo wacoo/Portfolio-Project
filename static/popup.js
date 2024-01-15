@@ -43,20 +43,20 @@ const popUpData = [
     link_to_source: "https://github.com/wacoo/DEF-CON_Summit",
   },
   {
-    name_desk: "Keeping track of hundreds  of components website",
-    name_mob: "Multi-Post Stories",
+    name_desk: "Health Clinic: Your Healthcare Appointment App, Simplifiede",
+    name_mob: "Health Clinic Website",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+      "Health Clinic is modern appointment booking app that empowers you to manage your healthcare with ease. Ditch the phone calls and waiting rooms – Health Clinic gives you the flexibility to schedule appointments anytime, anywhere, straight from your mobile device.",
     description2:
-      " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    featuredImage: "static/images/Snapshoot Portfolio.png",
+      "Health Clinic is modern appointment booking app that empowers you to manage your healthcare with ease. Ditch the phone calls and waiting rooms – Health Clinic gives you the flexibility to schedule appointments anytime, anywhere, straight from your mobile device.",
+    featuredImage: "static/images/proj_imgs/health.jpg",
     live_btn_txt: 'See live <img src="static/images/circle_arrow.png"  alt="">',
     source_btn_txt: 'See source <img src="static/images/github3.png" alt="">',
     technologies: ["HTML", "Bootstrap", "Ruby on rails"],
     live_button_img: "static/images/circle_arrow.png",
     source_button_img: "static/images/github3.png",
-    link_to_live_version: "https://wacoo.github.io/Portfolio-Project",
-    link_to_source: "https://github.com/wacoo/Portfolio-Project",
+    link_to_live_version: "https://jade-rabanadas-479b96.netlify.app",
+    link_to_source: "https://github.com/tajemouti/medical-appointments-front-end",
   },
   {
     name_desk: "Empowers users to effectively manage their finances",
@@ -73,6 +73,22 @@ const popUpData = [
     source_button_img: "static/images/github3.png",
     link_to_live_version: "https://smart-budget-6u1l.onrender.com/",
     link_to_source: "https://github.com/wacoo/smart-budget-ror-capstone",
+  },
+  {
+    name_desk: "Cheapr Project Web Application",
+    name_mob: "Cheapr Project Web Application",
+    description:
+      "Cheapr is a revolutionary app that makes it easy to find nearby stores and service providers offering the best deals on quality goods and services. What's more, it supports businesses that offer the most affordable prices by promoting them to users. The main goal of this project is to encourage a fair price for the goods or services provided.",
+    description2:
+      "Cheapr is a revolutionary app that makes it easy to find nearby stores and service providers offering the best deals on quality goods and services. What's more, it supports businesses that offer the most affordable prices by promoting them to users.",
+    featuredImage: "static/images/proj_imgs/cheapr.jpg",
+    live_btn_txt: 'See live <img src="static/images/circle_arrow.png"  alt="">',
+    source_btn_txt: 'See source <img src="static/images/github3.png" alt="">',
+    technologies: ["HTML", "Bootstrap", "Ruby on rails"],
+    live_button_img: "static/images/circle_arrow.png",
+    source_button_img: "static/images/github3.png",
+    link_to_live_version: "",
+    link_to_source: "https://github.com/wacoo/cheapr-project",
   },
 ];
 

@@ -728,7 +728,7 @@ a:hover img {
   }
 
   .show_case .wrapper .child-1 {
-    background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(/static/images/bg_c1.png);
+    background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(/static/images/proj_imgs/health.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -742,7 +742,7 @@ a:hover img {
   }
 
   .show_case .wrapper .child-3 {
-    background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(/static/images/bg_c3.png);
+    background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(/static/images/proj_imgs/cheapr.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -770,17 +770,17 @@ a:hover img {
   }
 
   .show_case .wrapper .child-1:hover {
-    background-image: url(/static/images/bg_c1.png);
+    background-image: url(/static/images/proj_imgs/health.jpg);
     padding-bottom: 0;
   }
 
   .show_case .wrapper .child-2:hover {
-    background-image: url(/static/images/budget/exp-household.png);
+    background-image: url(/static/images/budget/cat.png);
     padding-bottom: 0;
   }
 
   .show_case .wrapper .child-3:hover {
-    background-image: url(/static/images/bg_c3.png);
+    background-image: url(/static/images/proj_imgs/cheapr.jpg);
     padding-bottom: 0;
   }
 
