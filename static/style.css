@@ -735,7 +735,7 @@ a:hover img {
   }
 
   .show_case .wrapper .child-2 {
-    background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(/static/images/bg_c2.png);
+    background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(/static/images/budget/cat.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -775,7 +775,7 @@ a:hover img {
   }
 
   .show_case .wrapper .child-2:hover {
-    background-image: url(/static/images/bg_c2.png);
+    background-image: url(/static/images/budget/exp-household.png);
     padding-bottom: 0;
   }
 

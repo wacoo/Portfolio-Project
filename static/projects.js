@@ -123,10 +123,10 @@ const showCaseData = [
 
   },
   {
-    name: 'Data Dashboard<br> Healthcare',
-    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
-    featuredImage: 'static/images/bg_c2.png',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
+    name: 'Effective Expense<br>Management',
+    description: 'A mobile web app built with Rails that empowers users to effectively manage their finances.',
+    featuredImage: 'static/images/budget/cat.png',
+    technologies: ['HTML', 'CSS', 'React', 'ROR'],
     link_to_live_version: '',
     link_to_source: '',
 
