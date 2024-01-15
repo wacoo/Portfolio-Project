@@ -150,9 +150,9 @@ const showCaseData = [
 
   },
   {
-    name: 'Professional Art<br>Printing Data',
-    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
-    featuredImage: 'static/images/bg_c1.png',
+    name: 'TV Show Spotter<br>Website',
+    description: 'A captivating web application that brings TV shows to life. Explore a vast collection of shows through visually stunning cards, each featuring the show\'s name and an enticing image.',
+    featuredImage: 'static/images/proj_imgs/tv_mob.jpg',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     link_to_live_version: '',
     link_to_source: '',

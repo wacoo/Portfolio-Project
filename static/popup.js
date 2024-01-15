@@ -106,6 +106,22 @@ const popUpData = [
     link_to_live_version: "#",
     link_to_source: "https://github.com/wacoo/orbit-space-travel-agency",
   },
+  {
+    name_desk: "TV Show Spotter Website",
+    name_mob: "TV Show Spotter",
+    description:
+      "A captivating web application that brings TV shows to life. Explore a vast collection of shows through visually stunning cards, each featuring the show's name and an enticing image. With a simple click, delve into detailed descriptions in elegant pop-up windows.",
+    description2:
+      "A captivating web application that brings TV shows to life. Explore a vast collection of shows through visually stunning cards, each featuring the show's name and an enticing image. With a simple click, delve into detailed descriptions in elegant pop-up windows.",
+    featuredImage: "static/images/proj_imgs/tv.jpg",
+    live_btn_txt: 'See live <img src="static/images/circle_arrow.png"  alt="">',
+    source_btn_txt: 'See source <img src="static/images/github3.png" alt="">',
+    technologies: ["HTML", "Bootstrap", "Ruby on rails"],
+    live_button_img: "static/images/circle_arrow.png",
+    source_button_img: "static/images/github3.png",
+    link_to_live_version: "https://ngalamac.github.io/js-capstone-project/dist/",
+    link_to_source: "https://github.com/wacoo/tv-show-api-js-capstone-project",
+  },
 ];
 
 const noClassAtributes2 = ["img", "ul", "li", "a", "p", "p-2"];
