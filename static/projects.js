@@ -125,8 +125,8 @@ const showCaseData = [
   {
     name: 'Effective Expense<br>Management',
     description: 'A mobile web app built with Rails that empowers users to effectively manage their finances.',
-    featuredImage: 'static/images/budget/cat.png',
-    technologies: ['HTML', 'CSS', 'React', 'Ruby on Rails'],
+    featuredImage: 'static/images/budget/cat_mob.png',
+    technologies: ['HTML5', 'CSS3', 'React', 'Ruby on Rails'],
     link_to_live_version: '',
     link_to_source: '',
 
@@ -137,7 +137,7 @@ const showCaseData = [
     featuredImage: 'static/images/proj_imgs/cheapr.jpg',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Flask', 'MySQL'],
     link_to_live_version: '',
-    link_to_source: 'https://github.com/wacoo/orbit-space-travel-agency',
+    link_to_source: 'https://github.com/wacoo/cheapr-project',
 
   },
   {
@@ -145,17 +145,17 @@ const showCaseData = [
     description: 'Orbit is a cutting-edge React-based app that unlocks the wonders of space exploration and commercial opportunities.',
     featuredImage: 'static/images/orbit/home.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    link_to_live_version: '',
-    link_to_source: '',
+    link_to_live_version: 'https://orbit-space-travel.onrender.com/',
+    link_to_source: 'https://github.com/wacoo/orbit-space-travel-agency',
 
   },
   {
     name: 'TV Show Spotter<br>Website',
     description: 'A captivating web application that brings TV shows to life. Explore a vast collection of shows through visually stunning cards, each featuring the show\'s name and an enticing image.',
     featuredImage: 'static/images/proj_imgs/tv_mob.jpg',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    link_to_live_version: '',
-    link_to_source: '',
+    technologies: ['HTML5', 'CSS3', 'JavaScript'],
+    link_to_live_version: 'https://ngalamac.github.io/js-capstone-project/dist/',
+    link_to_source: 'https://github.com/wacoo/tv-show-api-js-capstone-project',
 
   },
   {
@@ -165,6 +165,22 @@ const showCaseData = [
     technologies: ['React', 'Flask', 'MySQL', 'Redis'],
     link_to_live_version: '',
     link_to_source: 'https://github.com/wacoo/aedya-chat-game',
+  },
+  {
+    name: 'ISO<br>Documentation',
+    description: 'ISO Documentation is a robust web application specifically designed to streamline the storage and management of diverse document types.',
+    featuredImage: 'static/images/iso/iso.jpg',
+    technologies: ['React', 'Flask', 'SQL'],
+    link_to_live_version: '',
+    link_to_source: 'https://github.com/wacoo/iso-documentation-flask-react',
+  },
+  {
+    name: 'Smart Math<br>Magician',
+    description: 'A web app calculator that brings a touch of enchantment to your mathematical journey. Equipped with the power of React.',
+    featuredImage: 'static/images/iso/iso.jpg',
+    technologies: ['HTML5', 'CSS3', 'React', 'ES5'],
+    link_to_live_version: '',
+    link_to_source: 'https://github.com/wacoo/iso-documentation-flask-react',
   },
 ];
 let count = 2;

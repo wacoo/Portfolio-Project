@@ -55,7 +55,7 @@
   padding-top: 120px;
   height: 590px;
   background-color: #1c1a19;
-  background-image: url(/static/images/des.png);
+  background-image: url(images/des.png);
   background-repeat: no-repeat;
   background-position: right 435px;
 }
@@ -311,6 +311,20 @@
   background-size: cover;
 }
 
+.show_case .wrapper .child-7 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%), url(images/iso/iso.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.show_case .wrapper .child-8 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%), url(images/calc/calc.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .show_case .wrapper .child-1:hover {
   background-image: url(images/proj_imgs/health.jpg);
   padding-bottom: 0;
@@ -339,8 +353,16 @@
 .show_case .wrapper .child-6:hover {
   background-image: url(images/proj_imgs/aedya.jpg);
   padding-bottom: 0;
-  background-repeat: no-repeat;
-  background-position: right 430px;
+}
+
+.show_case .wrapper .child-7:hover {
+  background-image: url(images/iso/iso.jpg);
+  padding-bottom: 0;
+}
+
+.show_case .wrapper .child-8:hover {
+  background-image: url(images/calc/calc.png);
+  padding-bottom: 0;
 }
 
 .img_p_holder .mp_stories,
@@ -429,7 +451,7 @@
   margin-top: 120px;
   padding-top: 120px;
   background-color: #1c1a19;
-  background-image: url(/static/images/art.png);
+  background-image: url(images/art.png);
   background-repeat: no-repeat;
   background-position: right 430px;
   margin-bottom: -1px;
@@ -675,7 +697,7 @@ a:hover img {
     flex-direction: row-reverse;
     justify-content: left;
     padding-top: 0;
-    background-image: url(/static/images/bg_desktop.png);
+    background-image: url(images/bg_desktop.png);
     background-size: 38%;
     background-repeat: no-repeat;
     background-position: right center;
@@ -796,6 +818,7 @@ a:hover img {
 
   .show_case .img_p_holder {
     width: 100%;
+    height: 420px;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -811,15 +834,15 @@ a:hover img {
   }
 
   .show_case .wrapper .img_p_holder .links {
-    display: block;
+    visibility: hidden;
   }
 
   .show_case .wrapper .img_p_holder:hover .mp_stories {
-    display: none;
+    visibility: hidden;
   }
 
   .show_case .wrapper .img_p_holder:hover .links {
-    display: none;
+    visibility: hidden;
   }
 
   .about .buttons {
