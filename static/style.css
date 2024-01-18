@@ -269,6 +269,78 @@
   background-origin: border-box;
 }
 
+.show_case .wrapper .child-1 {
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(/static/images/proj_imgs/health.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.show_case .wrapper .child-2 {
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(/static/images/budget/cat_mob.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.show_case .wrapper .child-3 {
+  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(/static/images/proj_imgs/cheapr.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.show_case .wrapper .child-4 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%), url(/static/images/orbit/home_mob.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.show_case .wrapper .child-5 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%), url(/static/images/proj_imgs/tv_mob.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.show_case .wrapper .child-6 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%), url(/static/images/proj_imgs/aedya.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.show_case .wrapper .child-1:hover {
+  background-image: url(/static/images/proj_imgs/health.jpg);
+  padding-bottom: 0;
+}
+
+.show_case .wrapper .child-2:hover {
+  background-image: url(/static/images/budget/cat_mob.png);
+  padding-bottom: 0;
+}
+
+.show_case .wrapper .child-3:hover {
+  background-image: url(/static/images/proj_imgs/cheapr.jpg);
+  padding-bottom: 0;
+}
+
+.show_case .wrapper .child-4:hover {
+  background-image: url(/static/images/orbit/home_mob.png);
+  padding-bottom: 0;
+}
+
+.show_case .wrapper .child-5:hover {
+  background-image: url(/static/images/proj_imgs/tv_mob.jpg);
+  padding-bottom: 0;
+}
+
+.show_case .wrapper .child-6:hover {
+  background-image: url(/static/images/proj_imgs/aedya.jpg);
+  padding-bottom: 0;
+}
+
 .img_p_holder .mp_stories,
 .img_p_holder .links ul {
   margin-left: 13px;
@@ -323,21 +395,29 @@
   width: 100%;
 }
 
-.child-2 {
+.show_case .wrapper .img_p_holder:hover .mp_stories {
+  visibility: hidden;
+}
+
+.show_case .wrapper .img_p_holder:hover .links {
+  visibility: hidden;
+}
+
+/* .child-2 {
   display: none;
 }
 
 .child-3 {
   display: none;
-}
+} */
 
-.child-7 {
+/* .child-7 {
   display: block;
 }
 
 .child-8 {
   display: block;
-}
+} */
 
 /*  About  */
 .about {
@@ -728,78 +808,6 @@ a:hover img {
     margin-top: 0;
   }
 
-  .show_case .wrapper .child-1 {
-    background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(/static/images/proj_imgs/health.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .show_case .wrapper .child-2 {
-    background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(/static/images/budget/cat_mob.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .show_case .wrapper .child-3 {
-    background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%), url(/static/images/proj_imgs/cheapr.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .show_case .wrapper .child-4 {
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%), url(/static/images/orbit/home_mob.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .show_case .wrapper .child-5 {
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%), url(/static/images/proj_imgs/tv_mob.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .show_case .wrapper .child-6 {
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%), url(/static/images/bg_c3.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .show_case .wrapper .child-1:hover {
-    background-image: url(/static/images/proj_imgs/health.jpg);
-    padding-bottom: 0;
-  }
-
-  .show_case .wrapper .child-2:hover {
-    background-image: url(/static/images/budget/cat_mob.png);
-    padding-bottom: 0;
-  }
-
-  .show_case .wrapper .child-3:hover {
-    background-image: url(/static/images/proj_imgs/cheapr.jpg);
-    padding-bottom: 0;
-  }
-
-  .show_case .wrapper .child-4:hover {
-    background-image: url(/static/images/orbit/home_mob.png);
-    padding-bottom: 0;
-  }
-
-  .show_case .wrapper .child-5:hover {
-    background-image: url(/static/images/proj_imgs/tv_mob.jpg);
-    padding-bottom: 0;
-  }
-
-  .show_case .wrapper .child-6:hover {
-    background-image: url(/static/images/bg_c3.png);
-    padding-bottom: 0;
-  }
-
   .show_case .wrapper .img_p_holder .links {
     display: block;
   }
@@ -820,10 +828,10 @@ a:hover img {
     display: flex;
   }
 
-  .show_case .child-7,
+  /* .show_case .child-7,
   .show_case .child-8 {
     display: none;
-  }
+  } */
 
   .about {
     margin-right: 0;

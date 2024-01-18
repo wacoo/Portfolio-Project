@@ -159,31 +159,12 @@ const showCaseData = [
 
   },
   {
-    name: 'Professional Art<br>Printing Data',
-    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
-    featuredImage: 'static/images/bg_c1.png',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
+    name: 'AEDYA<br>Chat Game',
+    description: 'AEDYA Chat Game is an innovative project that aims to revolutionize the way people connect and interact through a captivating chat application.',
+    featuredImage: 'static/images/proj_imgs/aedya.jpg',
+    technologies: ['React', 'Flask', 'MySQL', 'Redis'],
     link_to_live_version: '',
-    link_to_source: '',
-
-  },
-  {
-    name: 'Professional Art<br>Printing Data',
-    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
-    featuredImage: 'static/images/bg_c1.png',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    link_to_live_version: '',
-    link_to_source: '',
-
-  },
-  {
-    name: 'Professional Art<br>Printing Data',
-    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
-    featuredImage: 'static/images/bg_c1.png',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    link_to_live_version: '',
-    link_to_source: '',
-
+    link_to_source: 'https://github.com/wacoo/aedya-chat-game',
   },
 ];
 let count = 2;
@@ -222,14 +203,14 @@ window.addEventListener('resize', () => {
 }, true);
 
 // 6 times
-for (let i = 1; i <= 8; i += 1) {
-  const x = window.matchMedia('(min-width: 768px)');
-  let c = i - 1;
-  if (x.matches && (c === 4)) {
-    c = 1;
-  } else if (x.matches && (c === 5)) {
-    c = 2;
-  }
+for (let i = 1; i <= showCaseData.length; i += 1) {
+  // const x = window.matchMedia('(min-width: 768px)');
+  const c = i - 1;
+  // if (x.matches && (c === 4)) {
+  //   c = 1;
+  // } else if (x.matches && (c === 5)) {
+  //   c = 2;
+  // }
   showCaseObject[`h3-${i}`].innerHTML = showCaseData[c].name;
   showCaseObject[`p-${i}`].innerHTML = showCaseData[c].description;
 
