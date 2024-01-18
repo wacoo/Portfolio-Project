@@ -103,7 +103,7 @@ const popUpData = [
     technologies: ['HTML', 'Bootstrap', 'Ruby on rails'],
     live_button_img: 'static/images/circle_arrow.png',
     source_button_img: 'static/images/github3.png',
-    link_to_live_version: '#',
+    link_to_live_version: 'https://orbit-space-travel.onrender.com/',
     link_to_source: 'https://github.com/wacoo/orbit-space-travel-agency',
   },
   {
@@ -152,7 +152,23 @@ const popUpData = [
     live_button_img: 'static/images/circle_arrow.png',
     source_button_img: 'static/images/github3.png',
     link_to_live_version: '#',
-    link_to_source: 'https://github.com/wacoo/aedya-chat-game',
+    link_to_source: '#',
+  },
+  {
+    name_desk: 'Smart Math Magician',
+    name_mob: 'Smart Math Magician',
+    description:
+      'A web app calculator that brings a touch of enchantment to your mathematical journey. Equipped with the power of React, this single-page application seamlessly melds the art of computation with the wonder of technology.',
+    description2:
+      'A web app calculator that brings a touch of enchantment to your mathematical journey. Equipped with the power of React, this single-page application seamlessly melds the art of computation with the wonder of technology.',
+    featuredImage: 'static/images/calc/calc.png',
+    live_btn_txt: 'See live <img src="static/images/circle_arrow.png"  alt="">',
+    source_btn_txt: 'See source <img src="static/images/github3.png" alt="">',
+    technologies: ['HTML', 'Bootstrap', 'Ruby on rails'],
+    live_button_img: 'static/images/circle_arrow.png',
+    source_button_img: 'static/images/github3.png',
+    link_to_live_version: 'https://math-magician-irgv.onrender.com/calculator',
+    link_to_source: 'https://github.com/wacoo/smart-math-magicians-react',
   },
 ];
 
