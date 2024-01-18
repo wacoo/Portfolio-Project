@@ -11,11 +11,14 @@
 
 /* Header */
 .header {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 92px;
   background-color: #3c3a39;
+  position: fixed;
+  z-index: 998;
 }
 
 .buttons a {
@@ -633,7 +636,7 @@ a:hover img {
 
 .show_case .img_p_holder:hover {
   transition: transform 0.5s ease-in;
-  transform: scale(1.08);
+  transform: scaleX(1.03);
 }
 
 .buttons a:hover,
@@ -707,7 +710,7 @@ a:hover img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 30px;
+    margin-left: 8%;
     margin-right: 400px;
     margin-bottom: 59px;
   }
@@ -715,6 +718,9 @@ a:hover img {
   .introduction .social {
     display: flex;
     align-items: center;
+    position: fixed;
+    top: 330px;
+    left: 26px;
   }
 
   .languages ul li ul {
@@ -818,6 +824,7 @@ a:hover img {
 
   .show_case .img_p_holder {
     width: 100%;
+    min-width: 100%;
     height: 420px;
     margin: 0;
     display: flex;
@@ -827,6 +834,10 @@ a:hover img {
     border: lightgray solid 1px;
   }
 
+  .show_case .img_p_holder:hover {
+    height: 445px;
+  }
+
   .img_p_holder .buttons {
     display: none;
     padding-top: 0;
@@ -834,7 +845,7 @@ a:hover img {
   }
 
   .show_case .wrapper .img_p_holder .links {
-    visibility: hidden;
+    display: flex;
   }
 
   .show_case .wrapper .img_p_holder:hover .mp_stories {

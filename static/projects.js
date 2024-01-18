@@ -117,7 +117,7 @@ const showCaseData = [
     name: 'Health Clinic<br>Website',
     description: 'Health Clinic is modern appointment booking app that empowers you to manage your healthcare with ease.',
     featuredImage: 'static/images/bg_c1.png',
-    technologies: ['React', 'Ruby on Rails', 'PostgreSQL'],
+    technologies: ['React', 'Rails', 'PostgreSQL'],
     link_to_live_version: 'https://github.com/tajemouti/medical-appointments-front-end',
     link_to_source: 'https://jade-rabanadas-479b96.netlify.app/',
 
@@ -126,7 +126,7 @@ const showCaseData = [
     name: 'Effective Expense<br>Management',
     description: 'A mobile web app built with Rails that empowers users to effectively manage their finances.',
     featuredImage: 'static/images/budget/cat_mob.png',
-    technologies: ['HTML5', 'CSS3', 'React', 'Ruby on Rails'],
+    technologies: ['JavaScript', 'React', 'Rails'],
     link_to_live_version: '',
     link_to_source: '',
 
@@ -135,7 +135,7 @@ const showCaseData = [
     name: 'Cheapr Project<br>Web Application',
     description: 'a revolutionary app that makes it easy to find nearby stores and service providers offering the best deals on quality goods and services.',
     featuredImage: 'static/images/proj_imgs/cheapr.jpg',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Flask', 'MySQL'],
+    technologies: ['HTML5/CSS3', 'JavaScript', 'Flask'],
     link_to_live_version: '',
     link_to_source: 'https://github.com/wacoo/cheapr-project',
 
@@ -144,7 +144,7 @@ const showCaseData = [
     name: 'Orbit Space<br>Travel Agency',
     description: 'Orbit is a cutting-edge React-based app that unlocks the wonders of space exploration and commercial opportunities.',
     featuredImage: 'static/images/orbit/home.png',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
+    technologies: ['HTML5/CSS3', 'Bootstrap', 'Ruby'],
     link_to_live_version: 'https://orbit-space-travel.onrender.com/',
     link_to_source: 'https://github.com/wacoo/orbit-space-travel-agency',
 
