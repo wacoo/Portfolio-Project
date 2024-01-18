@@ -16,10 +16,12 @@ function storeData() {
 
 function retiveData() {
   const retrivedData = localStorage.getItem('formData');
-  const formDataR = JSON.parse(retrivedData);
-  fname.value = formDataR.fullName;
-  eMail.value = formDataR.email;
-  msg.value = formDataR.message;
+  if (retiveData) {
+    const formDataR = JSON.parse(retrivedData);
+    fname.value = formDataR.fullName;
+    eMail.value = formDataR.email;
+    msg.value = formDataR.message;
+  }
 }
 
 for (let i = 0; i < form1.elements.length; i += 1) {

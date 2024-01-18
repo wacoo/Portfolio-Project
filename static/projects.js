@@ -114,76 +114,57 @@ for (let i = 1; i <= 8; i += 1) {
 
 const showCaseData = [
   {
-    name: 'Professional Art<br>Printing Data',
-    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
+    name: 'Health Clinic<br>Website',
+    description: 'Health Clinic is modern appointment booking app that empowers you to manage your healthcare with ease.',
     featuredImage: 'static/images/bg_c1.png',
+    technologies: ['React', 'Ruby on Rails', 'PostgreSQL'],
+    link_to_live_version: 'https://github.com/tajemouti/medical-appointments-front-end',
+    link_to_source: 'https://jade-rabanadas-479b96.netlify.app/',
+
+  },
+  {
+    name: 'Effective Expense<br>Management',
+    description: 'A mobile web app built with Rails that empowers users to effectively manage their finances.',
+    featuredImage: 'static/images/budget/cat.png',
+    technologies: ['HTML', 'CSS', 'React', 'Ruby on Rails'],
+    link_to_live_version: '',
+    link_to_source: '',
+
+  },
+  {
+    name: 'Cheapr Project<br>Web Application',
+    description: 'a revolutionary app that makes it easy to find nearby stores and service providers offering the best deals on quality goods and services.',
+    featuredImage: 'static/images/proj_imgs/cheapr.jpg',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Flask', 'MySQL'],
+    link_to_live_version: '',
+    link_to_source: 'https://github.com/wacoo/orbit-space-travel-agency',
+
+  },
+  {
+    name: 'Orbit Space<br>Travel Agency',
+    description: 'Orbit is a cutting-edge React-based app that unlocks the wonders of space exploration and commercial opportunities.',
+    featuredImage: 'static/images/orbit/home.png',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     link_to_live_version: '',
     link_to_source: '',
 
   },
   {
-    name: 'Data Dashboard<br> Healthcare',
-    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
-    featuredImage: 'static/images/bg_c2.png',
+    name: 'TV Show Spotter<br>Website',
+    description: 'A captivating web application that brings TV shows to life. Explore a vast collection of shows through visually stunning cards, each featuring the show\'s name and an enticing image.',
+    featuredImage: 'static/images/proj_imgs/tv_mob.jpg',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     link_to_live_version: '',
     link_to_source: '',
 
   },
   {
-    name: 'Website Portfolio',
-    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
-    featuredImage: 'static/images/bg_c3.png',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
+    name: 'AEDYA<br>Chat Game',
+    description: 'AEDYA Chat Game is an innovative project that aims to revolutionize the way people connect and interact through a captivating chat application.',
+    featuredImage: 'static/images/proj_imgs/aedya.jpg',
+    technologies: ['React', 'Flask', 'MySQL', 'Redis'],
     link_to_live_version: '',
-    link_to_source: '',
-
-  },
-  {
-    name: 'Professional Art<br>Printing Data',
-    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
-    featuredImage: 'static/images/bg_c1.png',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    link_to_live_version: '',
-    link_to_source: '',
-
-  },
-  {
-    name: 'Professional Art<br>Printing Data',
-    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
-    featuredImage: 'static/images/bg_c1.png',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    link_to_live_version: '',
-    link_to_source: '',
-
-  },
-  {
-    name: 'Professional Art<br>Printing Data',
-    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
-    featuredImage: 'static/images/bg_c1.png',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    link_to_live_version: '',
-    link_to_source: '',
-
-  },
-  {
-    name: 'Professional Art<br>Printing Data',
-    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
-    featuredImage: 'static/images/bg_c1.png',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    link_to_live_version: '',
-    link_to_source: '',
-
-  },
-  {
-    name: 'Professional Art<br>Printing Data',
-    description: 'A daily selection of selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard.',
-    featuredImage: 'static/images/bg_c1.png',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
-    link_to_live_version: '',
-    link_to_source: '',
-
+    link_to_source: 'https://github.com/wacoo/aedya-chat-game',
   },
 ];
 let count = 2;
@@ -222,14 +203,14 @@ window.addEventListener('resize', () => {
 }, true);
 
 // 6 times
-for (let i = 1; i <= 8; i += 1) {
-  const x = window.matchMedia('(min-width: 768px)');
-  let c = i - 1;
-  if (x.matches && (c === 4)) {
-    c = 1;
-  } else if (x.matches && (c === 5)) {
-    c = 2;
-  }
+for (let i = 1; i <= showCaseData.length; i += 1) {
+  // const x = window.matchMedia('(min-width: 768px)');
+  const c = i - 1;
+  // if (x.matches && (c === 4)) {
+  //   c = 1;
+  // } else if (x.matches && (c === 5)) {
+  //   c = 2;
+  // }
   showCaseObject[`h3-${i}`].innerHTML = showCaseData[c].name;
   showCaseObject[`p-${i}`].innerHTML = showCaseData[c].description;
 
