@@ -125,7 +125,7 @@ const showCaseData = [
   {
     name: 'Effective Expense<br>Management',
     description: 'A mobile web app built with Rails that empowers users to effectively manage their finances.',
-    featuredImage: 'static/images/budget/cat.png',
+    featuredImage: 'static/images/budget/cat_mob.png',
     technologies: ['HTML', 'CSS', 'React', 'Ruby on Rails'],
     link_to_live_version: '',
     link_to_source: '',
@@ -165,6 +165,14 @@ const showCaseData = [
     technologies: ['React', 'Flask', 'MySQL', 'Redis'],
     link_to_live_version: '',
     link_to_source: 'https://github.com/wacoo/aedya-chat-game',
+  },
+  {
+    name: 'ISO<br>Documentation',
+    description: 'ISO Documentation is a robust web application specifically designed to streamline the storage and management of diverse document types.',
+    featuredImage: 'static/images/iso/iso.jpg',
+    technologies: ['React', 'Flask', 'SQL'],
+    link_to_live_version: '',
+    link_to_source: 'https://github.com/wacoo/iso-documentation-flask-react',
   },
 ];
 let count = 2;

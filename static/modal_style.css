@@ -104,7 +104,8 @@ dialog::backdrop {
 
 .all div.image img {
   width: 100%;
-  max-height: 400px;
+  max-height: 300px;
+  min-height: 300px;
 }
 
 .modal-2 .links {

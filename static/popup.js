@@ -138,6 +138,22 @@ const popUpData = [
     link_to_live_version: '#',
     link_to_source: 'https://github.com/wacoo/aedya-chat-game',
   },
+  {
+    name_desk: 'ISO Documentation',
+    name_mob: 'ISO Documentation',
+    description:
+      'ISO Documentation is a robust web application specifically designed to streamline the storage and management of diverse document types. From manuals and procedures to guidelines, organizational standards, and criteria documents, this user-friendly platform effortlessly handles documents in various formats. With a powerful database at its core, ISO Documentation enables easy organization and retrieval of documents. Users can swiftly search through the repository using filters such as department, date, category, and more.',
+    description2:
+      'ISO Documentation is a robust web application specifically designed to streamline the storage and management of diverse document types. From manuals and procedures to guidelines, organizational standards, and criteria documents, this user-friendly platform effortlessly handles documents in various formats. With a powerful database at its core, ISO Documentation enables easy organization and retrieval of documents.',
+    featuredImage: 'static/images/iso/iso.jpg',
+    live_btn_txt: 'See live <img src="static/images/circle_arrow.png"  alt="">',
+    source_btn_txt: 'See source <img src="static/images/github3.png" alt="">',
+    technologies: ['HTML', 'Bootstrap', 'Ruby on rails'],
+    live_button_img: 'static/images/circle_arrow.png',
+    source_button_img: 'static/images/github3.png',
+    link_to_live_version: '#',
+    link_to_source: 'https://github.com/wacoo/aedya-chat-game',
+  },
 ];
 
 const noClassAtributes2 = ['img', 'ul', 'li', 'a', 'p', 'p-2'];

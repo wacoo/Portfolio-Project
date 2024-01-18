@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  for (let i = 1; i <= 7; i += 1) {
+  for (let i = 1; i <= 8; i += 1) {
     const btnLinks = document.getElementById(`a-${i}`);
     btnLinks.addEventListener('click', (event) => {
       event.preventDefault();
