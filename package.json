@@ -4,7 +4,7 @@
   "description": "<a name=\"readme-top\"></a>",
   "main": "index.js",
   "scripts": {
-    "build": "babel static -d dist",
+    "build": "parcel build index.html --out-dir build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
