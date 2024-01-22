@@ -260,6 +260,8 @@ function addSeeMoreListener(btn, x) {
 
     popUpObject.aLive.href = popUpData[x].link_to_live_version;
     popUpObject.aSource.href = popUpData[x].link_to_source;
+    popUpObject.aLive.target = '_blank';
+    popUpObject.aSource.target = '_blank';
     popUpObject.aLive.innerHTML = popUpData[x].live_btn_txt;
     popUpObject.aSource.innerHTML = popUpData[x].source_btn_txt;
   });
