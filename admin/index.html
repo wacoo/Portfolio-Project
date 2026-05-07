@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Admin - Decap CMS</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+    }
+    .cms-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .cms-header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      color: white;
+      padding: 30px;
+      border-radius: 15px;
+      margin-bottom: 30px;
+      text-align: center;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .cms-header h1 {
+      margin: 0 0 10px 0;
+      font-size: 2.5em;
+      font-weight: 700;
+    }
+    .cms-header p {
+      margin: 0;
+      font-size: 1.2em;
+      opacity: 0.9;
+    }
+    .cms-loading {
+      background: white;
+      border-radius: 15px;
+      padding: 60px;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    }
+    .cms-loading h2 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+    .cms-loading p {
+      color: #666;
+      font-size: 1.1em;
+    }
+    .spinner {
+      border: 4px solid #f3f3f3;
+      border-top: 4px solid #667eea;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 1s linear infinite;
+      margin: 20px auto;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .help-text {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-left: 4px solid #667eea;
+    }
+    .help-text h3 {
+      margin: 0 0 10px 0;
+      color: #333;
+    }
+    .help-text ul {
+      margin: 10px 0;
+      padding-left: 20px;
+    }
+    .help-text li {
+      margin-bottom: 5px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="cms-container">
+    <div class="cms-header">
+      <h1>🎨 Portfolio Admin</h1>
+      <p>Manage your portfolio projects with Git-based CMS</p>
+    </div>
+
+    <div class="help-text">
+      <h3>📋 How to Use This CMS:</h3>
+      <ul>
+        <li><strong>Add Projects:</strong> Click "New Project" to add portfolio items</li>
+        <li><strong>Edit Projects:</strong> Click any project to edit details</li>
+        <li><strong>Upload Images:</strong> Use the image widget to upload project screenshots</li>
+        <li><strong>Publish Changes:</strong> All changes are saved directly to your Git repository</li>
+        <li><strong>Automatic Deploy:</strong> Netlify will automatically deploy your changes</li>
+      </ul>
+    </div>
+
+    <div class="cms-loading" id="loading">
+      <h2>Loading CMS...</h2>
+      <div class="spinner"></div>
+      <p>Initializing Decap CMS with Git backend</p>
+    </div>
+
+    <!-- Decap CMS will be loaded here -->
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <script>
+      // Hide loading when CMS is ready
+      document.addEventListener('DOMContentLoaded', function() {
+        setTimeout(function() {
+          const loading = document.getElementById('loading');
+          if (loading && window.CMS) {
+            loading.style.display = 'none';
+          }
+        }, 2000);
+      });
+    </script>
+  </div>
+</body>
+</html>

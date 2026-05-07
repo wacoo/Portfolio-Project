@@ -1,0 +1,85 @@
+{
+  "recentWork": {
+    "title": "My Recent Works",
+    "name": "DEF-CON Conference",
+    "description": " The ultimate destination for hacking enthusiasts, cybersecurity professionals, and tech aficionados worldwide. This cutting-edge platform offers everything you need to make the most out of this premier cybersecurity event, from real-time updates on schedules and speakers to instant access to event information and resources.",
+    "featuredImage": "static/images/defcon/head.png",
+    "technologies": ["HTML", "CSS", "Javascript"],
+    "link_to_live_version": "",
+    "link_to_source": ""
+  },
+  "projects": [
+    {
+      "id": 1,
+      "name": "Health Clinic<br>Website",
+      "description": "Health Clinic is modern appointment booking app that empowers you to manage your healthcare with ease.",
+      "featuredImage": "static/images/bg_c1.png",
+      "technologies": ["React", "Rails", "PostgreSQL"],
+      "link_to_live_version": "https://github.com/tajemouti/medical-appointments-front-end",
+      "link_to_source": "https://jade-rabanadas-479b96.netlify.app/"
+    },
+    {
+      "id": 2,
+      "name": "Effective Expense<br>Management",
+      "description": "A mobile web app built with Rails that empowers users to effectively manage their finances.",
+      "featuredImage": "static/images/budget/cat_mob.png",
+      "technologies": ["JavaScript", "React", "Rails"],
+      "link_to_live_version": "",
+      "link_to_source": ""
+    },
+    {
+      "id": 3,
+      "name": "Cheapr Project<br>Web Application",
+      "description": "a revolutionary app that makes it easy to find nearby stores and service providers offering the best deals on quality goods and services.",
+      "featuredImage": "static/images/proj_imgs/cheapr.jpg",
+      "technologies": ["HTML5/CSS3", "JavaScript", "Flask"],
+      "link_to_live_version": "",
+      "link_to_source": "https://github.com/wacoo/cheapr-project"
+    },
+    {
+      "id": 4,
+      "name": "Orbit Space<br>Travel Agency",
+      "description": "Orbit is a cutting-edge React-based app that unlocks the wonders of space exploration and commercial opportunities.",
+      "featuredImage": "static/images/orbit/home.png",
+      "technologies": ["HTML5/CSS3", "Bootstrap", "Ruby"],
+      "link_to_live_version": "https://orbit-space-travel.onrender.com/",
+      "link_to_source": "https://github.com/wacoo/orbit-space-travel-agency"
+    },
+    {
+      "id": 5,
+      "name": "TV Show Spotter<br>Website",
+      "description": "A captivating web application that brings TV shows to life. Explore a vast collection of shows through visually stunning cards, each featuring the show's name and an enticing image.",
+      "featuredImage": "static/images/proj_imgs/tv_mob.jpg",
+      "technologies": ["HTML5", "CSS3", "JavaScript"],
+      "link_to_live_version": "https://ngalamac.github.io/js-capstone-project/dist/",
+      "link_to_source": "https://github.com/wacoo/tv-show-api-js-capstone-project"
+    },
+    {
+      "id": 6,
+      "name": "AEDYA<br>Chat Game",
+      "description": "AEDYA Chat Game is an innovative project that aims to revolutionize the way people connect and interact through a captivating chat application.",
+      "featuredImage": "static/images/proj_imgs/aedya.jpg",
+      "technologies": ["React", "Flask", "MySQL", "Redis"],
+      "link_to_live_version": "",
+      "link_to_source": "https://github.com/wacoo/aedya-chat-game"
+    },
+    {
+      "id": 7,
+      "name": "ISO<br>Documentation",
+      "description": "ISO Documentation is a robust web application specifically designed to streamline the storage and management of diverse document types.",
+      "featuredImage": "static/images/iso/iso.jpg",
+      "technologies": ["React", "Flask", "SQL"],
+      "link_to_live_version": "",
+      "link_to_source": "https://github.com/wacoo/iso-documentation-flask-react"
+    },
+    {
+      "id": 8,
+      "name": "Smart Math<br>Magician",
+      "description": "A web app calculator that brings a touch of enchantment to your mathematical journey. Equipped with the power of React.",
+      "featuredImage": "static/images/iso/iso.jpg",
+      "technologies": ["HTML5", "CSS3", "React", "ES5"],
+      "link_to_live_version": "",
+      "link_to_source": "https://github.com/wacoo/iso-documentation-flask-react"
+    }
+  ]
+}

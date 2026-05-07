@@ -1,0 +1,14 @@
+{
+  "id": 1,
+  "name": "Health Clinic<br>Website",
+  "description": "Health Clinic is modern appointment booking app that empowers you to manage your healthcare with ease.",
+  "featuredImage": "static/images/bg_c1.png",
+  "folder": "health-clinic",
+  "technologies": [
+    "React",
+    "Rails",
+    "PostgreSQL"
+  ],
+  "link_to_live_version": "https://github.com/tajemouti/medical-appointments-front-end",
+  "link_to_source": "https://jade-rabanadas-479b96.netlify.app/"
+}

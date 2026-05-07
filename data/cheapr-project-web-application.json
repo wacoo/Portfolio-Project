@@ -1,0 +1,14 @@
+{
+  "id": 3,
+  "name": "Cheapr Project<br>Web Application",
+  "description": "a revolutionary app that makes it easy to find nearby stores and service providers offering the best deals on quality goods and services.",
+  "featuredImage": "static/images/proj_imgs/cheapr.jpg",
+  "folder": "cheapr-project",
+  "technologies": [
+    "HTML5/CSS3",
+    "JavaScript",
+    "Flask"
+  ],
+  "link_to_live_version": "",
+  "link_to_source": "https://github.com/wacoo/cheapr-project"
+}

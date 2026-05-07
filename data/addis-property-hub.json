@@ -1,0 +1,14 @@
+{
+  "id": 1778133421330,
+  "name": "Addis Property Hub",
+  "description": "This is the project.",
+  "featuredImage": "",
+  "folder": "addis-property-hub",
+  "technologies": [
+    "React-Native",
+    "Python",
+    "FastAPI"
+  ],
+  "link_to_live_version": "",
+  "link_to_source": ""
+}

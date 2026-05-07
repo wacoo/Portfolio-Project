@@ -1,0 +1,39 @@
+backend:
+  name: local
+  # For local testing - no authentication needed
+
+media_folder: static/images
+public_folder: /images
+
+collections:
+  - name: recent-work
+    label: Recent Work
+    files:
+      - file: data/recent-work.json
+        name: recent-work
+        label: Recent Work
+        fields:
+          - { name: title, label: Title, widget: string }
+          - { name: name, label: Project Name, widget: string }
+          - { name: description, label: Description, widget: text }
+          - { name: featuredImage, label: Featured Image, widget: image }
+          - { name: technologies, label: Technologies, widget: list }
+          - { name: link_to_live_version, label: Live Version URL, widget: string }
+          - { name: link_to_source, label: Source Code URL, widget: string }
+
+  - name: projects
+    label: Projects
+    folder: data
+    create: true
+    identifier_field: name
+    extension: json
+    format: json
+    fields:
+      - { name: id, label: ID, widget: number }
+      - { name: name, label: Project Name, widget: string }
+      - { name: description, label: Description, widget: text }
+      - { name: featuredImage, label: Featured Image, widget: image }
+      - { name: folder, label: Project Folder, widget: string }
+      - { name: technologies, label: Technologies, widget: list }
+      - { name: link_to_live_version, label: Live Version URL, widget: string }
+      - { name: link_to_source, label: Source Code URL, widget: string }

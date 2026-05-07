@@ -1,0 +1,14 @@
+{
+  "id": 5,
+  "name": "TV Show Spotter<br>Website",
+  "description": "A captivating web application that brings TV shows to life. Explore a vast collection of shows through visually stunning cards, each featuring the show's name and an enticing image.",
+  "featuredImage": "static/images/proj_imgs/tv_mob.jpg",
+  "folder": "tv-show-spotter",
+  "technologies": [
+    "HTML5",
+    "CSS3",
+    "JavaScript"
+  ],
+  "link_to_live_version": "https://ngalamac.github.io/js-capstone-project/dist/",
+  "link_to_source": "https://github.com/wacoo/tv-show-api-js-capstone-project"
+}

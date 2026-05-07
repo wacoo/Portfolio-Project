@@ -1,0 +1,15 @@
+{
+  "id": 6,
+  "name": "AEDYA<br>Chat Game",
+  "description": "AEDYA Chat Game is an innovative project that aims to revolutionize the way people connect and interact through a captivating chat application.",
+  "featuredImage": "static/images/proj_imgs/aedya.jpg",
+  "folder": "aedya-chat",
+  "technologies": [
+    "React",
+    "Flask",
+    "MySQL",
+    "Redis"
+  ],
+  "link_to_live_version": "",
+  "link_to_source": "https://github.com/wacoo/aedya-chat-game"
+}

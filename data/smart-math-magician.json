@@ -1,0 +1,15 @@
+{
+  "id": 8,
+  "name": "Smart Math<br>Magician",
+  "description": "A web app calculator that brings a touch of enchantment to your mathematical journey. Equipped with the power of React.",
+  "featuredImage": "static/images/iso/iso.jpg",
+  "folder": "smart-math",
+  "technologies": [
+    "HTML5",
+    "CSS3",
+    "React",
+    "ES5"
+  ],
+  "link_to_live_version": "",
+  "link_to_source": "https://github.com/wacoo/iso-documentation-flask-react"
+}
